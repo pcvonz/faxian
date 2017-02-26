@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:1970-01-01, commit time:00:00, hash:unknown</authoring_tool>
+    </contributor>
+    <created>2017-02-25T20:31:43</created>
+    <modified>2017-02-25T20:31:43</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag sid="xmag">5.407143</xmag>
+            <aspect_ratio>1.756066</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <shiftx sid="shiftx" type="float">0.02999997</shiftx>
+          <shifty sid="shifty" type="float">0.03999996</shifty>
+          <YF_dofdist sid="YF_dofdist" type="float">0</YF_dofdist>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+    <light id="Lamp_001-light" name="Lamp.001">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+    <light id="Lamp_002-light" name="Lamp.002">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+    <light id="Lamp_003-light" name="Lamp.004">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="base_house-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="window-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="inside-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="roof-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="chimney-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="door-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="slat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="door_handle-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.003632166 0.005393549 0.01844378 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="base_house-material" name="base_house">
+      <instance_effect url="#base_house-effect"/>
+    </material>
+    <material id="window-material" name="window">
+      <instance_effect url="#window-effect"/>
+    </material>
+    <material id="inside-material" name="inside">
+      <instance_effect url="#inside-effect"/>
+    </material>
+    <material id="roof-material" name="roof">
+      <instance_effect url="#roof-effect"/>
+    </material>
+    <material id="chimney-material" name="chimney">
+      <instance_effect url="#chimney-effect"/>
+    </material>
+    <material id="door-material" name="door">
+      <instance_effect url="#door-effect"/>
+    </material>
+    <material id="slat-material" name="slat">
+      <instance_effect url="#slat-effect"/>
+    </material>
+    <material id="door_handle-material" name="door_handle">
+      <instance_effect url="#door_handle-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_004-mesh" name="Cube.004">
+      <mesh>
+        <source id="Cube_004-mesh-positions">
+          <float_array id="Cube_004-mesh-positions-array" count="90">-1 -1 -1.013657 -1 -1 0.6176683 -1 1 -1.013657 -1 1 0.6176683 1 -1 -1.013657 1 -1 0.6176683 1 1 -1.013657 1 1 0.6176683 1 0.4759678 0.6176683 1 0.4759678 -1.013657 -1 -1 -0.3015548 -1 1 -0.3015548 1 1 -0.3015548 1 -1 -0.3015548 1 0.4759678 -0.3015548 1 -0.9879439 -0.9976914 1 -0.9879439 0.6008701 1 0.4762557 0.5964129 1 0.4759245 -0.9960514 1 -0.9879439 -0.2998909 -1 -1 0.5919557 -1 1 0.5919557 1 1 0.5919557 1 -1 0.5919557 1 -0.9879439 0.575674 -1 1 -0.9944114 1 1 -0.9944114 1 -1 -0.9944114 -1 -1 -0.9944114 1 -0.9879439 -0.9788319</float_array>
+          <technique_common>
+            <accessor source="#Cube_004-mesh-positions-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_004-mesh-normals">
+          <float_array id="Cube_004-mesh-normals-array" count="30">0 1 0 0 -1 0 -1 0 0 0 0 -1 1 0 0 0 0 1 1 -2.53471e-7 0 1 1.12931e-5 0 1 -1.42712e-5 0 1 3.27526e-7 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_004-mesh-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_004-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_004-mesh-positions"/>
+        </vertices>
+        <polylist material="base_house-material" count="43">
+          <input semantic="VERTEX" source="#Cube_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>26 0 2 0 25 0 28 1 4 1 27 1 25 2 0 2 28 2 18 4 6 4 26 4 8 5 3 5 1 5 22 4 14 4 12 4 21 2 10 2 20 2 23 1 1 1 20 1 27 4 15 4 29 4 9 4 15 4 4 4 8 4 16 4 17 4 13 4 24 4 23 4 23 4 16 4 5 4 13 1 20 1 10 1 7 0 21 0 3 0 3 2 20 2 1 2 7 4 17 4 22 4 13 4 29 4 19 4 14 4 26 4 12 4 11 2 28 2 10 2 10 1 27 1 13 1 26 0 6 0 2 0 28 1 0 1 4 1 25 2 2 2 0 2 18 4 9 4 6 4 1 5 5 5 8 5 8 5 7 5 3 5 22 6 17 6 14 6 21 2 11 2 10 2 23 1 5 1 1 1 27 4 4 4 15 4 9 4 18 4 15 4 8 4 5 4 16 4 13 7 19 7 24 7 23 4 24 4 16 4 13 1 23 1 20 1 7 0 22 0 21 0 3 2 21 2 20 2 7 4 8 4 17 4 13 8 27 8 29 8 14 9 18 9 26 9 11 2 25 2 28 2 10 1 28 1 27 1</p>
+        </polylist>
+        <polylist material="window-material" count="7">
+          <input semantic="VERTEX" source="#Cube_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 </vcount>
+          <p>2 3 9 3 0 3 22 0 11 0 21 0 12 0 25 0 11 0 4 3 0 3 9 3 2 3 6 3 9 3 22 0 12 0 11 0 12 0 26 0 25 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_005-mesh" name="Cube.005">
+      <mesh>
+        <source id="Cube_005-mesh-positions">
+          <float_array id="Cube_005-mesh-positions-array" count="510">-1 -1 -1 -1 1 -1 1 -1 -1 1 1 -1 -1 -1 0.233931 -1 1 0.233931 1 1 0.233931 1 -1 0.233931 0 1 -1 0 -1 -1 0 -1 0.233931 0 1 0.233931 0.5 -1 -1 0.5 -1 0.233931 0.5 1 -1 0.5 1 0.233931 -1 1 -0.1870727 1 1 -0.1870727 1 -1 -0.1870727 -1 -1 -0.1870726 0 -1 -0.1870727 0 1 -0.1870727 0.5 -1 -0.1870727 0.5 1 -0.1870727 -1 -0.9 -1 1 -0.9 -1 1 -0.9 0.233931 -1 -0.9 0.233931 0 -0.9 0.233931 0 -0.9 -1 0.5 -0.9 0.233931 0.5 -0.9 -1 1.506242 -0.9 -0.1870727 -1 -0.9 -0.1870726 1 0.905 -1 1 0.905 0.233931 0 0.905 0.233931 0.5 0.905 0.233931 1.506242 0.905 -0.1870727 -1 0.905 -1 -1 0.905 0.233931 0 0.905 -1 0.5 0.905 -1 -1 0.905 -0.1870727 0.9 -1 -1 0.9 -1 0.233931 0.9 1 -1 0.9 1 0.233931 0.9 -1 -0.1870727 0.9 1 -0.1870727 0.9 -0.9 0.233931 0.9 -0.9 -1 0.9 0.905 0.233931 0.9 0.905 -1 -1 -1 0.1918306 -1 1 0.1918306 1 1 0.1918306 1 -1 0.1918306 0 -1 0.1918306 0 1 0.1918306 0.5 -1 0.1918306 0.5 1 0.1918306 -1 -0.9 0.1918306 1.506242 -0.9 0.1918306 1.506242 0.905 0.1918306 -1 0.905 0.1918306 0.9 1 0.1918306 0.9 -1 0.1918306 -1 1 -0.9187073 1 1 -0.9187073 1 -1 -0.9187073 0 -1 -0.9187073 0 1 -0.9187073 0.5 -1 -0.9187073 0.5 1 -0.9187073 -1 -1 -0.9187073 1.506242 -0.9 -0.9187073 -1 -0.9 -0.9187073 1.506242 0.905 -0.9187073 -1 0.905 -0.9187073 0.9 -1 -0.9187073 0.9 1 -0.9187073 -1 0.03258329 -1 -1 -0.0275833 -1 -1 0.03258329 0.233931 -1 -0.0275833 0.233931 0 0.03258329 -1 0 -0.0275833 -1 0.5 0.03258329 -1 0.5 -0.0275833 -1 -1 0.03258329 -0.1870727 -1 -0.0275833 -0.1870727 1 -0.0275833 -1 1 0.03258329 -1 1 -0.0275833 0.233931 1 0.03258329 0.233931 0 -0.0275833 0.233931 0 0.03258329 0.233931 0.5 -0.0275833 0.233931 0.5 0.03258329 0.233931 1.506242 -0.0275833 -0.1870727 1.506242 0.03258329 -0.1870727 0.9 0.03258329 -1 0.9 -0.0275833 -1 0.9 -0.0275833 0.233931 0.9 0.03258329 0.233931 -1 0.03258329 0.1918306 -1 -0.0275833 0.1918306 1.506242 -0.0275833 0.1918306 1.506242 0.03258329 0.1918306 -1 0.03258329 -0.9187073 -1 -0.0275833 -0.9187073 1.506242 -0.0275833 -0.9187073 1.506242 0.03258329 -0.9187073 -0.9 1 -1 -0.9 1 0.233931 -0.9 -1 -1 -0.9 -1 0.233931 -0.9 1 -0.1870727 -0.9 -1 -0.1870726 -0.9 -0.9 -1 -0.9 -0.9 0.233931 -0.9 0.905 -1 -0.9 0.905 0.233931 -0.9 -1 0.1918306 -0.9 1 0.1918306 -0.9 1 -0.9187073 -0.9 -1 -0.9187073 -0.9 -0.0275833 0.233931 -0.9 0.03258329 0.233931 -0.9 -0.0275833 -1 -0.9 0.03258329 -1 1.506242 0.905 -0.1870727 1 1 -0.1870727 1 1 -0.9187073 1.506242 0.905 -0.9187073 1.53977 1 -0.9187073 1.53977 1 -1 1.53977 -1 -0.9187073 1.53977 -1 -1 1.53977 0.905 -1 1.53977 0.905 0.233931 1.53977 1 0.233931 1.53977 1 0.1918306 1.53977 1 -0.1870727 1.53977 -1 0.1918306 1.53977 -1 -0.1870727 1.53977 0.905 -0.1870727 1.53977 -0.9 -1 1.53977 -1 0.233931 1.53977 -0.9 0.233931 1.53977 -0.9 -0.1870727 1.53977 -0.9 0.1918306 1.53977 -0.9 -0.9187073 1.53977 0.03258329 -1 1.53977 0.03258329 0.233931 1.53977 0.905 -0.9187073 1.53977 0.905 0.1918306 1.53977 0.03258329 0.1918306 1.53977 0.03258329 -0.9187073 1.53977 -0.0275833 -1 1.53977 -0.0275833 0.233931 1.53977 -0.0275833 -0.1870727 1.53977 0.03258329 -0.1870727 1.53977 -0.0275833 0.1918306 1.53977 -0.0275833 -0.9187073 1.53977 0.905 -0.1870727 1.53977 1 -0.1870727 1.53977 1 -0.9187073 1.53977 0.905 -0.9187073</float_array>
+          <technique_common>
+            <accessor source="#Cube_005-mesh-positions-array" count="170" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_005-mesh-normals">
+          <float_array id="Cube_005-mesh-normals-array" count="51">-1 0 0 0 0 -1 0 -1 0 0 0 1 0 1 0 -1 -1.80313e-7 0 -1 -2.10109e-7 0 -1 -2.02852e-7 0 -1 -1.86763e-7 0 -1 2.70807e-6 0 1 0 0 -1 0 0 -1 1.86764e-7 0 -1 2.02852e-7 0 -1 2.10109e-7 0 -1 2.7047e-7 0 -1 -1.30727e-6 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_005-mesh-normals-array" count="17" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_005-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_005-mesh-positions"/>
+        </vertices>
+        <polylist material="base_house-material" count="292">
+          <input semantic="VERTEX" source="#Cube_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_005-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>68 0 39 0 79 0 25 1 139 1 2 1 75 2 116 2 127 2 46 1 34 1 53 1 35 3 47 3 52 3 36 3 115 3 123 3 72 4 114 4 126 4 73 2 44 2 80 2 37 3 11 3 36 3 8 1 42 1 41 1 74 4 8 4 72 4 61 4 21 4 59 4 60 2 48 2 67 2 59 4 118 4 125 4 58 2 22 2 60 2 54 2 119 2 124 2 112 2 162 2 100 2 69 4 137 4 3 4 55 0 43 0 65 0 62 0 19 0 54 0 13 3 28 3 10 3 10 3 121 3 117 3 7 3 50 3 45 3 51 1 2 1 44 1 132 3 167 3 133 3 77 0 0 0 75 0 113 3 156 3 78 3 65 5 90 5 106 5 99 3 36 3 97 3 97 3 123 3 129 3 95 3 52 3 105 3 53 1 93 1 102 1 79 6 82 6 110 6 105 3 37 3 99 3 45 3 30 3 13 3 66 4 23 4 61 4 48 2 70 2 18 2 52 3 15 3 37 3 14 1 53 1 42 1 81 4 14 4 74 4 67 2 18 2 57 2 47 4 61 4 15 4 40 7 106 7 84 7 101 4 159 4 113 4 27 0 54 0 4 0 5 0 65 0 40 0 56 4 144 4 17 4 4 2 124 2 117 2 10 2 60 2 13 2 11 4 125 4 115 4 13 2 67 2 45 2 15 4 59 4 11 4 49 4 74 4 23 4 139 2 70 2 2 2 43 8 110 8 90 8 17 3 134 3 69 3 33 0 75 0 19 0 23 4 72 4 21 4 22 2 80 2 48 2 21 4 126 4 118 4 19 2 127 2 119 2 17 4 81 4 49 4 16 0 79 0 43 0 78 3 136 3 69 3 91 0 77 0 33 0 90 9 111 9 91 9 63 4 151 4 32 4 64 1 158 1 109 1 85 0 62 0 27 0 84 0 107 0 85 0 50 3 98 3 30 3 104 3 99 3 98 3 111 0 24 0 77 0 110 0 83 0 111 0 103 1 25 1 51 1 102 1 92 1 103 1 26 3 104 3 50 3 94 3 105 3 104 3 28 3 128 3 121 3 96 3 129 3 128 3 30 3 96 3 28 3 98 3 97 3 96 3 107 0 33 0 62 0 106 0 91 0 107 0 76 3 165 3 112 3 38 1 144 1 147 1 128 3 84 3 85 3 121 3 85 3 27 3 119 2 71 2 20 2 118 4 68 4 16 4 115 4 55 4 5 4 117 2 58 2 10 2 129 3 40 3 84 3 117 3 27 3 4 3 24 1 116 1 0 1 58 2 119 2 20 2 125 4 16 4 55 4 126 4 1 4 68 4 1 1 122 1 39 1 123 3 5 3 40 3 127 2 9 2 71 2 78 3 132 3 38 3 38 3 133 3 17 3 69 3 135 3 78 3 138 10 148 10 153 10 145 10 151 10 152 10 153 10 160 10 165 10 156 10 137 10 136 10 157 10 144 10 143 10 141 10 143 10 142 10 150 10 164 10 161 10 149 10 152 10 150 10 146 10 153 10 151 10 162 10 159 10 163 10 155 10 157 10 141 10 161 10 158 10 155 10 159 10 140 10 156 10 165 10 154 10 159 10 164 10 163 10 158 10 166 10 168 10 167 10 3 1 140 1 34 1 133 4 168 4 134 4 7 3 150 3 26 3 32 4 153 4 76 4 135 2 166 2 132 2 109 4 163 4 101 4 135 1 168 1 169 1 100 2 164 2 108 2 38 2 157 2 64 2 92 1 148 1 25 1 35 3 142 3 6 3 93 1 160 1 92 1 26 3 161 3 94 3 34 1 154 1 93 1 108 1 152 1 63 1 94 3 155 3 95 3 95 3 141 3 35 3 45 2 57 2 7 2 6 4 143 4 56 4 68 0 1 0 39 0 25 1 148 1 139 1 75 2 0 2 116 2 46 1 3 1 34 1 35 3 6 3 47 3 36 3 11 3 115 3 72 4 8 4 114 4 73 2 12 2 44 2 37 3 15 3 11 3 8 1 14 1 42 1 74 4 14 4 8 4 61 4 23 4 21 4 60 2 22 2 48 2 59 4 21 4 118 4 58 2 20 2 22 2 54 2 19 2 119 2 112 2 165 2 162 2 46 4 81 4 69 4 69 4 136 4 137 4 3 4 46 4 69 4 55 0 16 0 43 0 62 0 33 0 19 0 13 3 30 3 28 3 10 3 28 3 121 3 7 3 26 3 50 3 51 1 25 1 2 1 132 3 166 3 167 3 77 0 24 0 0 0 113 3 159 3 156 3 65 11 43 11 90 11 99 3 37 3 36 3 97 3 36 3 123 3 95 3 35 3 52 3 53 1 34 1 93 1 79 0 39 0 82 0 105 3 52 3 37 3 45 3 50 3 30 3 66 4 49 4 23 4 146 2 18 2 70 2 48 2 80 2 70 2 70 2 138 2 146 2 52 3 47 3 15 3 14 1 46 1 53 1 81 4 46 4 14 4 145 2 57 2 18 2 67 2 48 2 18 2 18 2 146 2 145 2 47 4 66 4 61 4 40 0 65 0 106 0 101 4 163 4 159 4 27 0 62 0 54 0 5 0 55 0 65 0 49 4 66 4 56 4 56 4 143 4 144 4 17 4 49 4 56 4 4 2 54 2 124 2 10 2 58 2 60 2 11 4 59 4 125 4 13 2 60 2 67 2 15 4 61 4 59 4 49 4 81 4 74 4 44 2 2 2 70 2 139 2 138 2 70 2 70 2 80 2 44 2 43 0 79 0 110 0 17 3 133 3 134 3 33 0 77 0 75 0 23 4 74 4 72 4 22 2 73 2 80 2 21 4 72 4 126 4 19 2 75 2 127 2 17 4 69 4 81 4 16 0 68 0 79 0 78 3 156 3 136 3 91 12 111 12 77 12 90 0 110 0 111 0 63 4 152 4 151 4 64 1 157 1 158 1 85 13 107 13 62 13 84 0 106 0 107 0 50 3 104 3 98 3 104 3 105 3 99 3 111 14 83 14 24 14 110 0 82 0 83 0 103 1 92 1 25 1 102 1 93 1 92 1 26 3 94 3 104 3 94 3 95 3 105 3 28 3 96 3 128 3 96 3 97 3 129 3 30 3 98 3 96 3 98 3 99 3 97 3 107 15 91 15 33 15 106 16 90 16 91 16 76 3 153 3 165 3 38 1 17 1 144 1 128 3 129 3 84 3 121 3 128 3 85 3 119 2 127 2 71 2 118 4 126 4 68 4 115 4 125 4 55 4 117 2 124 2 58 2 129 3 123 3 40 3 117 3 121 3 27 3 24 1 120 1 116 1 58 2 124 2 119 2 125 4 118 4 16 4 126 4 114 4 1 4 1 1 114 1 122 1 123 3 115 3 5 3 127 2 116 2 9 2 78 3 135 3 132 3 38 3 132 3 133 3 69 3 134 3 135 3 138 10 139 10 148 10 145 10 146 10 151 10 153 10 148 10 160 10 156 10 140 10 137 10 157 10 147 10 144 10 141 10 157 10 143 10 150 10 152 10 164 10 149 10 145 10 152 10 146 10 138 10 153 10 162 10 165 10 159 10 155 10 158 10 157 10 161 10 164 10 158 10 159 10 154 10 140 10 165 10 160 10 154 10 164 10 162 10 163 10 166 10 169 10 168 10 3 1 137 1 140 1 133 4 167 4 168 4 7 3 149 3 150 3 32 4 151 4 153 4 135 2 169 2 166 2 109 4 158 4 163 4 135 1 134 1 168 1 100 2 162 2 164 2 38 2 147 2 157 2 92 1 160 1 148 1 35 3 141 3 142 3 93 1 154 1 160 1 26 3 150 3 161 3 34 1 140 1 154 1 108 1 164 1 152 1 94 3 161 3 155 3 95 3 155 3 141 3 149 2 7 2 57 2 45 2 67 2 57 2 57 2 145 2 149 2 66 4 47 4 6 4 6 4 142 4 143 4 56 4 66 4 6 4</p>
+        </polylist>
+        <polylist material="inside-material" count="32">
+          <input semantic="VERTEX" source="#Cube_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_005-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>114 1 41 1 122 1 29 1 12 1 9 1 120 1 9 1 116 1 41 1 88 1 86 1 122 1 86 1 131 1 42 1 102 1 88 1 31 1 44 1 12 1 89 1 51 1 31 1 88 1 103 1 89 1 130 1 29 1 120 1 131 1 87 1 130 1 87 1 31 1 29 1 86 1 89 1 87 1 82 1 130 1 83 1 83 1 120 1 24 1 39 1 131 1 82 1 114 1 8 1 41 1 29 1 31 1 12 1 120 1 29 1 9 1 41 1 42 1 88 1 122 1 41 1 86 1 42 1 53 1 102 1 31 1 51 1 44 1 89 1 103 1 51 1 88 1 102 1 103 1 130 1 87 1 29 1 131 1 86 1 87 1 87 1 89 1 31 1 86 1 88 1 89 1 82 1 131 1 130 1 83 1 130 1 120 1 39 1 122 1 131 1</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_006-mesh" name="Cube.006">
+      <mesh>
+        <source id="Cube_006-mesh-positions">
+          <float_array id="Cube_006-mesh-positions-array" count="60">-1.332213 -1.2 0.3657138 -1.332213 1.2 0.3657138 1.067788 -1.2 0.3657138 1.067788 1.2 0.3657138 -1.332213 -1.2 0.233931 -1.332213 1.2 0.233931 1.067788 1.2 0.233931 1.067788 -1.2 0.233931 2.246906 1.2 0.3657138 2.246906 -1.2 0.3657138 2.246906 1.2 0.233931 2.246906 -1.2 0.233931 -0.4969422 -1.2 0.233931 -0.2213523 -1.2 0.233931 -0.2213525 -1.2 0.3657138 -0.4969426 -1.2 0.3657138 -0.4969422 -0.9650347 0.3657131 -0.2213523 -0.9650347 0.3657131 -0.4969424 -0.9650347 0.2339296 -0.2213525 -0.9650347 0.2339296</float_array>
+          <technique_common>
+            <accessor source="#Cube_006-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_006-mesh-normals">
+          <float_array id="Cube_006-mesh-normals-array" count="75">0 -3.30367e-7 1 0 -1 0 0 0 1 0 1 0 0 0 -1 0 6.33203e-7 -1 1 2.70752e-7 -1.13073e-6 -1 7.21853e-7 -1.35688e-6 0 -1 -3.44306e-7 -1 0 0 1 0 0 0 3.04409e-6 1 0 -3.30367e-7 1 0 3.04409e-6 1 -5.7795e-7 0 1 8.99429e-7 0 1 0 -1 1.12272e-6 0 -5.8345e-6 -1 0 6.33203e-7 -1 0 -5.8345e-6 -1 -1.60559e-6 0 -1 1.0668e-6 0 -1 1 -1.44371e-6 3.16606e-6 -1 -7.32023e-7 1.35688e-6 -2.1628e-7 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_006-mesh-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_006-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_006-mesh-positions"/>
+        </vertices>
+        <polylist material="roof-material" count="36">
+          <input semantic="VERTEX" source="#Cube_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_006-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 16 0 17 0 2 1 13 1 7 1 2 2 8 2 3 2 3 3 5 3 1 3 3 3 10 3 6 3 6 4 11 4 7 4 7 1 9 1 2 1 5 5 19 5 18 5 15 1 4 1 12 1 16 6 12 6 18 6 17 7 13 7 14 7 16 8 19 8 17 8 1 9 4 9 0 9 9 10 10 10 8 10 14 11 2 11 17 11 3 12 1 12 17 12 0 13 15 13 16 13 17 14 2 14 3 14 1 15 0 15 16 15 2 16 14 16 13 16 2 2 9 2 8 2 3 3 6 3 5 3 3 3 8 3 10 3 6 4 10 4 11 4 7 1 11 1 9 1 12 17 4 17 18 17 5 18 6 18 19 18 7 19 13 19 19 19 18 20 4 20 5 20 6 21 7 21 19 21 15 1 0 1 4 1 16 22 15 22 12 22 17 23 19 23 13 23 16 24 18 24 19 24 1 9 5 9 4 9 9 10 11 10 10 10</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_007-mesh" name="Cube.007">
+      <mesh>
+        <source id="Cube_007-mesh-positions">
+          <float_array id="Cube_007-mesh-positions-array" count="24">-1 -1 1.357221 1 -1 1.357221 -1 -1 -0.3015548 1 -1 -0.3015548 -1 -2.227531 -0.3015548 -1 -2.227531 1.357221 1 -2.227531 1.357221 1 -2.227531 -0.3015548</float_array>
+          <technique_common>
+            <accessor source="#Cube_007-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_007-mesh-normals">
+          <float_array id="Cube_007-mesh-normals-array" count="15">0 0 1 0 -1 0 -1 0 0 0 0 -1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_007-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_007-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_007-mesh-positions"/>
+        </vertices>
+        <polylist material="base_house-material" count="10">
+          <input semantic="VERTEX" source="#Cube_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_007-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 6 0 1 0 5 1 7 1 6 1 2 2 5 2 0 2 3 3 4 3 2 3 1 4 7 4 3 4 0 0 5 0 6 0 5 1 4 1 7 1 2 2 4 2 5 2 3 3 7 3 4 3 1 4 6 4 7 4</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_008-mesh" name="Cube.008">
+      <mesh>
+        <source id="Cube_008-mesh-positions">
+          <float_array id="Cube_008-mesh-positions-array" count="72">-0.137306 -0.137306 -1 -0.137306 -0.137306 1.479873 -0.137306 0.137306 -1 -0.137306 0.137306 1.479873 0.137306 -0.137306 -1 0.137306 -0.137306 1.479873 0.137306 0.137306 -1 0.137306 0.137306 1.479873 -0.137306 -0.137306 1.393674 -0.137306 0.137306 1.393674 0.137306 0.137306 1.393674 0.137306 -0.137306 1.393674 -0.1684525 -0.1684525 1.393674 -0.1684525 -0.1684525 1.479873 -0.1684525 0.1684525 1.479873 0.1684525 0.1684525 1.479873 0.1684525 -0.1684525 1.479873 -0.1684525 0.1684525 1.393674 0.1684525 0.1684525 1.393674 0.1684525 -0.1684525 1.393674 -0.1313385 -0.1313385 1.268094 -0.1313385 0.1313385 1.268094 0.1313385 0.1313385 1.268094 0.1313385 -0.1313385 1.268094</float_array>
+          <technique_common>
+            <accessor source="#Cube_008-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_008-mesh-normals">
+          <float_array id="Cube_008-mesh-normals-array" count="66">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 -0.9996033 0.02816712 5.22654e-6 0 1 -5.22654e-6 0 1 0 0 1 -7.8398e-6 0 -1 7.8398e-6 0 -1 -0.9996033 0 0.028167 0.9996033 0 0.028167 0 0.9996033 0.02816712 0 -0.9996033 0.02816689 -5.68022e-6 0 1 5.68022e-6 0 1 5.68022e-6 0 -1 -5.68022e-6 0 -1 -0.9996032 0 0.02816706 0.9996032 0 0.02816706 0 0.9996033 0.02816689</float_array>
+          <technique_common>
+            <accessor source="#Cube_008-mesh-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_008-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_008-mesh-positions"/>
+        </vertices>
+        <polylist material="chimney-material" count="44">
+          <input semantic="VERTEX" source="#Cube_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_008-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>9 0 0 0 8 0 10 1 2 1 9 1 11 2 6 2 10 2 8 3 4 3 11 3 2 4 4 4 0 4 3 5 22 5 7 5 3 6 13 6 1 6 11 4 12 4 8 4 5 7 15 7 7 7 9 4 18 4 10 4 13 3 19 3 16 3 16 2 18 2 15 2 15 1 17 1 14 1 14 0 12 0 13 0 1 8 16 8 5 8 8 9 17 9 9 9 10 10 19 10 11 10 7 8 14 8 3 8 22 8 20 8 23 8 7 11 23 11 5 11 1 12 21 12 3 12 5 13 20 13 1 13 9 0 2 0 0 0 10 1 6 1 2 1 11 2 4 2 6 2 8 3 0 3 4 3 2 4 6 4 4 4 3 14 21 14 22 14 3 15 14 15 13 15 11 4 19 4 12 4 5 16 16 16 15 16 9 4 17 4 18 4 13 3 12 3 19 3 16 2 19 2 18 2 15 1 18 1 17 1 14 0 17 0 12 0 1 8 13 8 16 8 8 17 12 17 17 17 10 18 18 18 19 18 7 8 15 8 14 8 22 8 21 8 20 8 7 19 22 19 23 19 1 20 20 20 21 20 5 21 23 21 20 21</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_010-mesh" name="Cube.010">
+      <mesh>
+        <source id="Cube_010-mesh-positions">
+          <float_array id="Cube_010-mesh-positions-array" count="12">0 -1 -1 0.5 -1 -1 0 -1 -0.1870727 0.5 -1 -0.1870727</float_array>
+          <technique_common>
+            <accessor source="#Cube_010-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_010-mesh-normals">
+          <float_array id="Cube_010-mesh-normals-array" count="3">0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_010-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_010-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_010-mesh-positions"/>
+        </vertices>
+        <polylist material="door-material" count="2">
+          <input semantic="VERTEX" source="#Cube_010-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_010-mesh-normals" offset="1"/>
+          <vcount>3 3 </vcount>
+          <p>1 0 2 0 0 0 1 0 3 0 2 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_011-mesh" name="Cube.011">
+      <mesh>
+        <source id="Cube_011-mesh-positions">
+          <float_array id="Cube_011-mesh-positions-array" count="60">0 -0.7312501 0.05061084 0 -0.7312501 0.794299 0 0 0.794299 0 0 0.05061084 0 -0.3046876 0.794299 0 -0.4265626 0.794299 0 -0.4265626 0.05061084 0 -0.3046875 0.05061084 0.05817306 -0.3046876 0.794299 0.05817306 -0.4265626 0.794299 0.05817306 -0.4265626 0.05061084 0.05817306 -0.3046875 0.05061084 -0.01046359 -0.7312501 0.05061084 -0.01046359 -0.7312501 0.794299 -0.01046359 0 0.794299 -0.01046359 0 0.05061084 -0.01046359 -0.3046876 0.794299 -0.01046359 -0.4265626 0.794299 -0.01046359 -0.365625 0.05061084 -0.01046359 -0.5484375 0.05061084</float_array>
+          <technique_common>
+            <accessor source="#Cube_011-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_011-mesh-normals">
+          <float_array id="Cube_011-mesh-normals-array" count="24">1 0 0 0 -1 0 0 0 -1 0 0 1 0 1 0 0 1 0 -1 0 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_011-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_011-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_011-mesh-positions"/>
+        </vertices>
+        <polylist material="base_house-material" count="24">
+          <input semantic="VERTEX" source="#Cube_011-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_011-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 6 0 5 0 2 0 7 0 3 0 7 2 10 2 6 2 3 5 14 5 2 5 1 1 12 1 0 1 2 3 16 3 4 3 5 3 13 3 1 3 0 2 19 2 18 2 16 6 15 6 18 6 17 6 18 6 19 6 13 6 19 6 12 6 1 0 0 0 6 0 2 0 4 0 7 0 7 2 11 2 10 2 3 5 15 5 14 5 1 1 13 1 12 1 2 3 14 3 16 3 5 3 17 3 13 3 15 2 3 2 18 2 0 2 12 2 19 2 18 2 3 2 0 2 16 6 14 6 15 6 17 6 16 6 18 6 13 6 17 6 19 6</p>
+        </polylist>
+        <polylist material="slat-material" count="10">
+          <input semantic="VERTEX" source="#Cube_011-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_011-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>6 1 9 1 5 1 9 0 11 0 8 0 5 3 8 3 4 3 4 4 11 4 7 4 4 3 17 3 5 3 6 1 10 1 9 1 9 0 10 0 11 0 5 3 9 3 8 3 4 7 8 7 11 7 4 3 16 3 17 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_013-mesh" name="Cube.013">
+      <mesh>
+        <source id="Cube_013-mesh-positions">
+          <float_array id="Cube_013-mesh-positions-array" count="540">-0.0237984 -0.0237984 -1 -0.0237984 -0.0237984 -0.6101952 -0.0237984 0.0237984 -1 -0.0237984 0.0237984 -0.6101952 0.0237984 -0.0237984 -1 0.0237984 -0.0237984 -0.6101952 0.0237984 0.0237984 -1 0.0237984 0.0237984 -0.6101952 -0.0237984 -0.0237984 -0.658761 -0.0237984 0.0237984 -0.658761 0.0237984 0.0237984 -0.658761 0.0237984 -0.0237984 -0.658761 -0.0237984 0.3688755 -1 -0.0237984 0.3688755 -0.6101952 -0.0237984 0.4164724 -1 -0.0237984 0.4164724 -0.6101952 0.0237984 0.3688755 -1 0.0237984 0.3688755 -0.6101952 0.0237984 0.4164724 -1 0.0237984 0.4164724 -0.6101952 -0.0237984 0.3688755 -0.658761 -0.0237984 0.4164724 -0.658761 0.0237984 0.4164724 -0.658761 0.0237984 0.3688755 -0.658761 -0.0237984 0.7615495 -1 -0.0237984 0.7615495 -0.6101952 -0.0237984 0.8091463 -1 -0.0237984 0.8091463 -0.6101952 0.0237984 0.7615495 -1 0.0237984 0.7615495 -0.6101952 0.0237984 0.8091463 -1 0.0237984 0.8091463 -0.6101952 -0.0237984 0.7615495 -0.658761 -0.0237984 0.8091463 -0.658761 0.0237984 0.8091463 -0.658761 0.0237984 0.7615495 -0.658761 -0.0237984 1.154223 -1 -0.0237984 1.154223 -0.6101952 -0.0237984 1.20182 -1 -0.0237984 1.20182 -0.6101952 0.0237984 1.154223 -1 0.0237984 1.154223 -0.6101952 0.0237984 1.20182 -1 0.0237984 1.20182 -0.6101952 -0.0237984 1.154223 -0.658761 -0.0237984 1.20182 -0.658761 0.0237984 1.20182 -0.658761 0.0237984 1.154223 -0.658761 1.92779 -0.0237984 -0.9999991 1.92779 -0.0237984 -0.6101942 1.92779 0.0237984 -0.9999991 1.92779 0.0237984 -0.6101942 1.975387 -0.0237984 -0.9999991 1.975387 -0.0237984 -0.6101942 1.975387 0.0237984 -0.9999991 1.975387 0.0237984 -0.6101942 1.92779 -0.0237984 -0.6587601 1.92779 0.0237984 -0.6587601 1.975387 0.0237984 -0.6587601 1.975387 -0.0237984 -0.6587601 1.92779 0.3688755 -0.9999991 1.92779 0.3688755 -0.6101942 1.92779 0.4164724 -0.9999991 1.92779 0.4164724 -0.6101942 1.975387 0.3688755 -0.9999991 1.975387 0.3688755 -0.6101942 1.975387 0.4164724 -0.9999991 1.975387 0.4164724 -0.6101942 1.92779 0.3688755 -0.6587601 1.92779 0.4164724 -0.6587601 1.975387 0.4164724 -0.6587601 1.975387 0.3688755 -0.6587601 1.92779 0.7615495 -0.9999991 1.92779 0.7615495 -0.6101942 1.92779 0.8091463 -0.9999991 1.92779 0.8091463 -0.6101942 1.975387 0.7615495 -0.9999991 1.975387 0.7615495 -0.6101942 1.975387 0.8091463 -0.9999991 1.975387 0.8091463 -0.6101942 1.92779 0.7615495 -0.6587601 1.92779 0.8091463 -0.6587601 1.975387 0.8091463 -0.6587601 1.975387 0.7615495 -0.6587601 1.92779 1.154223 -0.9999991 1.92779 1.154223 -0.6101942 1.92779 1.20182 -0.9999991 1.92779 1.20182 -0.6101942 1.975387 1.154223 -0.9999991 1.975387 1.154223 -0.6101942 1.975387 1.20182 -0.9999991 1.975387 1.20182 -0.6101942 1.92779 1.154223 -0.6587601 1.92779 1.20182 -0.6587601 1.975387 1.20182 -0.6587601 1.975387 1.154223 -0.6587601 1.92779 -0.0237984 -0.9999991 1.92779 -0.0237984 -0.6101942 1.92779 0.0237984 -0.9999991 1.92779 0.0237984 -0.6101942 1.975387 -0.0237984 -0.9999991 1.975387 -0.0237984 -0.6101942 1.975387 0.0237984 -0.9999991 1.975387 0.0237984 -0.6101942 1.92779 -0.0237984 -0.6587601 1.92779 0.0237984 -0.6587601 1.975387 0.0237984 -0.6587601 1.975387 -0.0237984 -0.6587601 1.92779 -0.0237984 -0.6587601 1.92779 -0.0237984 -0.6101942 1.92779 0.0237984 -0.6101942 1.92779 0.0237984 -0.6587601 1.439922 -0.0237984 -0.9999993 1.439922 -0.0237984 -0.6101944 1.439922 0.0237984 -0.9999993 1.439922 0.0237984 -0.6101944 1.487519 -0.0237984 -0.9999992 1.487519 -0.0237984 -0.6101944 1.487519 0.0237984 -0.9999992 1.487519 0.0237984 -0.6101944 1.439922 -0.0237984 -0.6587603 1.439922 0.0237984 -0.6587603 1.487519 0.0237984 -0.6587603 1.487519 -0.0237984 -0.6587603 1.439922 -0.0237984 -0.6587603 1.439922 -0.0237984 -0.6101944 1.439922 0.0237984 -0.6101944 1.439922 0.0237984 -0.6587603 0.9520546 -0.0237984 -0.9999994 0.9520546 -0.0237984 -0.6101946 0.9520546 0.0237984 -0.9999994 0.9520546 0.0237984 -0.6101946 0.9996514 -0.0237984 -0.9999994 0.9996514 -0.0237984 -0.6101946 0.9996514 0.0237984 -0.9999994 0.9996514 0.0237984 -0.6101946 0.9520546 -0.0237984 -0.6587604 0.9520546 0.0237984 -0.6587604 0.9996514 0.0237984 -0.6587604 0.9996514 -0.0237984 -0.6587604 0.9520546 -0.0237984 -0.6587604 0.9520546 -0.0237984 -0.6101946 0.9520546 0.0237984 -0.6101946 0.9520546 0.0237984 -0.6587604 0.4641869 -0.02379834 -0.9999997 0.4641869 -0.02379834 -0.6101948 0.4641869 0.0237984 -0.9999997 0.4641869 0.0237984 -0.6101948 0.5117838 -0.02379834 -0.9999997 0.5117838 -0.02379834 -0.6101948 0.5117838 0.0237984 -0.9999997 0.5117838 0.0237984 -0.6101948 0.4641869 -0.02379834 -0.6587607 0.4641869 0.0237984 -0.6587607 0.5117838 0.0237984 -0.6587606 0.5117838 -0.02379834 -0.6587606 0.4641869 -0.02379834 -0.6587607 0.4641869 -0.02379834 -0.6101948 0.4641869 0.0237984 -0.6101948 0.4641869 0.0237984 -0.6587607 -0.02368068 -0.02379834 -0.9999998 -0.02368068 -0.02379834 -0.610195 -0.02368068 0.02379846 -0.9999998 -0.02368068 0.02379846 -0.610195 0.02391624 -0.02379834 -0.9999998 0.02391624 -0.02379834 -0.6101949 0.02391624 0.02379846 -0.9999998 0.02391624 0.02379846 -0.6101949 -0.02368068 -0.02379834 -0.6587609 -0.02368068 0.02379846 -0.6587609 0.02391624 0.02379846 -0.6587608 0.02391624 -0.02379834 -0.6587608 -0.02368068 -0.02379834 -0.6587609 -0.02368068 -0.02379834 -0.610195 -0.02368068 0.02379846 -0.610195 -0.02368068 0.02379846 -0.6587609 1.92779 -0.0237984 -0.6587601 1.92779 -0.0237984 -0.6101942 1.92779 0.0237984 -0.6101942 1.92779 0.0237984 -0.6587601</float_array>
+          <technique_common>
+            <accessor source="#Cube_013-mesh-positions-array" count="180" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_013-mesh-normals">
+          <float_array id="Cube_013-mesh-normals-array" count="153">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1 3.28877e-6 0 -1 0 1 0 0 -1 0 1.64439e-6 0 -1 -1.0034e-6 0 1 0 -1 0 0 1 0 0 1 0 0 -1 0 1.64438e-6 0 -1 -2.64778e-6 0 1 0 -1 0 0 1 0 -3.55543e-7 0 1 0 1 0 0 -1 0 3.55543e-7 0 -1 0 -1 0 0 1 0 0 -1 0 5.33315e-7 0 -1 0 1 0 -7.11086e-7 0 1 0 1 0 0 -1 0 0 1 0 0 -1 0 1.64439e-6 0 1 1.64438e-6 0 1 0 -1 0 0 1 0 -3.28877e-6 0 1 -5.24253e-7 0 1 5.85544e-7 0 -1 3.64604e-7 0 -1 0 -1 0 0 1 0 -5.85544e-7 0 1 0 -1 0 2.77185e-7 0 -1 0 0 1 5.42376e-7 0 -1 0 1 0 0 -1 0 -5.85545e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_013-mesh-normals-array" count="51" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_013-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_013-mesh-positions"/>
+        </vertices>
+        <polylist material="roof-material" count="368">
+          <input semantic="VERTEX" source="#Cube_013-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_013-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>9 0 0 0 8 0 10 1 2 1 9 1 11 2 6 2 10 2 8 3 4 3 11 3 7 4 1 4 5 4 1 3 11 3 5 3 5 2 10 2 7 2 7 1 9 1 3 1 21 0 12 0 20 0 22 1 14 1 21 1 23 2 18 2 22 2 20 3 16 3 23 3 19 4 13 4 17 4 13 3 23 3 17 3 17 2 22 2 19 2 19 1 21 1 15 1 33 0 24 0 32 0 34 1 26 1 33 1 35 2 30 2 34 2 32 3 28 3 35 3 31 4 25 4 29 4 25 3 35 3 29 3 29 2 34 2 31 2 31 1 33 1 27 1 45 0 36 0 44 0 46 1 38 1 45 1 47 2 42 2 46 2 44 3 40 3 47 3 43 4 37 4 41 4 37 3 47 3 41 3 41 2 46 2 43 2 43 1 45 1 39 1 23 2 7 2 10 2 13 5 7 5 3 5 9 2 13 2 3 2 20 0 15 0 21 0 23 4 9 4 10 4 29 5 15 5 25 5 15 2 32 2 25 2 32 0 27 0 33 0 22 2 29 2 19 2 35 4 21 4 22 4 31 2 47 2 41 2 37 5 31 5 27 5 27 2 44 2 37 2 44 0 39 0 45 0 47 4 33 4 34 4 57 0 48 0 56 0 58 1 50 1 57 1 59 2 54 2 58 2 56 3 52 3 59 3 55 4 49 4 53 4 49 3 59 3 53 3 53 2 58 2 55 2 55 1 57 1 51 1 69 0 60 0 68 0 70 1 62 1 69 1 71 2 66 2 70 2 68 3 64 3 71 3 67 4 61 4 65 4 61 3 71 3 65 3 65 2 70 2 67 2 67 1 69 1 63 1 81 0 72 0 80 0 82 1 74 1 81 1 83 2 78 2 82 2 80 3 76 3 83 3 79 4 73 4 77 4 73 3 83 3 77 3 77 2 82 2 79 2 79 1 81 1 75 1 93 0 84 0 92 0 94 1 86 1 93 1 95 2 90 2 94 2 92 3 88 3 95 3 91 4 85 4 89 4 85 3 95 3 89 3 89 2 94 2 91 2 91 1 93 1 87 1 71 2 55 2 58 2 61 5 55 5 51 5 57 2 61 2 51 2 68 0 63 0 69 0 71 4 57 4 58 4 77 5 63 5 73 5 63 2 80 2 73 2 80 0 75 0 81 0 70 2 77 2 67 2 83 4 69 4 70 4 79 2 95 2 89 2 85 5 79 5 75 5 75 2 92 2 85 2 92 0 87 0 93 0 95 4 81 4 82 4 105 0 96 0 104 0 106 1 98 1 105 1 107 2 102 2 106 2 104 3 100 3 107 3 98 5 100 5 96 5 103 4 97 4 101 4 97 3 107 3 101 3 101 2 106 2 103 2 103 1 105 1 99 1 99 4 109 4 97 4 111 4 178 4 110 4 104 4 111 4 105 4 105 4 110 4 99 4 97 4 108 4 104 4 121 0 112 0 120 0 121 1 118 1 114 1 123 2 118 2 122 2 120 3 116 3 123 3 114 6 116 6 112 6 119 4 113 4 117 4 113 3 123 3 117 3 117 2 122 2 119 2 119 1 121 1 115 1 115 4 125 4 113 4 126 0 124 0 125 0 120 4 127 4 121 4 121 4 126 4 115 4 113 4 124 4 120 4 137 0 128 0 136 0 138 7 130 7 137 7 139 2 134 2 138 2 136 8 132 8 139 8 130 9 132 9 128 9 135 10 129 10 133 10 129 11 139 11 133 11 133 2 138 2 135 2 135 12 137 12 131 12 131 4 141 4 129 4 142 0 140 0 141 0 136 4 143 4 137 4 137 4 142 4 131 4 129 4 140 4 136 4 153 0 144 0 152 0 153 13 150 13 146 13 155 2 150 2 154 2 152 14 148 14 155 14 146 15 148 15 144 15 151 16 145 16 149 16 145 17 155 17 149 17 149 2 154 2 151 2 147 18 154 18 153 18 147 4 157 4 145 4 158 0 156 0 157 0 152 4 159 4 153 4 153 4 158 4 147 4 145 4 156 4 152 4 169 0 160 0 168 0 169 1 166 1 162 1 171 2 166 2 170 2 168 3 164 3 171 3 162 5 164 5 160 5 167 4 161 4 165 4 161 3 171 3 165 3 165 2 170 2 167 2 163 1 170 1 169 1 163 4 173 4 161 4 174 0 172 0 173 0 168 4 175 4 169 4 169 4 174 4 163 4 161 4 172 4 168 4 178 0 176 0 177 0 109 4 176 4 108 4 108 4 179 4 111 4 110 4 177 4 109 4 177 19 119 19 117 19 119 20 179 20 122 20 176 21 117 21 123 21 179 5 123 5 122 5 126 22 133 22 135 22 124 23 133 23 139 23 135 24 121 24 138 24 138 4 120 4 121 4 136 25 149 25 155 25 149 26 131 26 129 26 151 27 137 27 154 27 154 28 136 28 137 28 147 5 165 5 167 5 153 29 167 29 147 29 152 30 165 30 171 30 170 4 152 4 153 4 9 0 2 0 0 0 10 1 6 1 2 1 11 2 4 2 6 2 8 3 0 3 4 3 7 4 3 4 1 4 1 3 8 3 11 3 5 2 11 2 10 2 7 1 10 1 9 1 21 0 14 0 12 0 22 1 18 1 14 1 23 2 16 2 18 2 20 3 12 3 16 3 19 4 15 4 13 4 13 3 20 3 23 3 17 2 23 2 22 2 19 1 22 1 21 1 33 0 26 0 24 0 34 1 30 1 26 1 35 2 28 2 30 2 32 3 24 3 28 3 31 4 27 4 25 4 25 3 32 3 35 3 29 2 35 2 34 2 31 1 34 1 33 1 45 0 38 0 36 0 46 1 42 1 38 1 47 2 40 2 42 2 44 3 36 3 40 3 43 4 39 4 37 4 37 3 44 3 47 3 41 2 47 2 46 2 43 1 46 1 45 1 23 2 17 2 7 2 13 5 17 5 7 5 9 2 20 2 13 2 20 0 13 0 15 0 23 4 20 4 9 4 29 5 19 5 15 5 15 2 21 2 32 2 32 0 25 0 27 0 22 2 35 2 29 2 35 4 32 4 21 4 31 2 34 2 47 2 37 5 41 5 31 5 27 2 33 2 44 2 44 0 37 0 39 0 47 4 44 4 33 4 57 0 50 0 48 0 58 1 54 1 50 1 59 2 52 2 54 2 56 3 48 3 52 3 55 4 51 4 49 4 49 3 56 3 59 3 53 2 59 2 58 2 55 1 58 1 57 1 69 0 62 0 60 0 70 1 66 1 62 1 71 2 64 2 66 2 68 3 60 3 64 3 67 4 63 4 61 4 61 3 68 3 71 3 65 2 71 2 70 2 67 1 70 1 69 1 81 0 74 0 72 0 82 1 78 1 74 1 83 2 76 2 78 2 80 3 72 3 76 3 79 4 75 4 73 4 73 3 80 3 83 3 77 2 83 2 82 2 79 1 82 1 81 1 93 0 86 0 84 0 94 1 90 1 86 1 95 2 88 2 90 2 92 3 84 3 88 3 91 4 87 4 85 4 85 3 92 3 95 3 89 2 95 2 94 2 91 1 94 1 93 1 71 2 65 2 55 2 61 5 65 5 55 5 57 2 68 2 61 2 68 0 61 0 63 0 71 4 68 4 57 4 77 5 67 5 63 5 63 2 69 2 80 2 80 0 73 0 75 0 70 2 83 2 77 2 83 4 80 4 69 4 79 2 82 2 95 2 85 5 89 5 79 5 75 2 81 2 92 2 92 0 85 0 87 0 95 4 92 4 81 4 105 0 98 0 96 0 106 1 102 1 98 1 107 2 100 2 102 2 104 3 96 3 100 3 98 5 102 5 100 5 103 4 99 4 97 4 97 3 104 3 107 3 101 2 107 2 106 2 103 1 106 1 105 1 99 4 110 4 109 4 111 4 179 4 178 4 104 4 108 4 111 4 105 4 111 4 110 4 97 4 109 4 108 4 121 0 114 0 112 0 121 1 122 1 118 1 123 2 116 2 118 2 120 3 112 3 116 3 114 6 118 6 116 6 119 4 115 4 113 4 113 3 120 3 123 3 117 2 123 2 122 2 119 1 122 1 121 1 115 4 126 4 125 4 126 0 127 0 124 0 120 4 124 4 127 4 121 4 127 4 126 4 113 4 125 4 124 4 137 0 130 0 128 0 138 31 134 31 130 31 139 2 132 2 134 2 136 32 128 32 132 32 130 5 134 5 132 5 135 33 131 33 129 33 129 11 136 11 139 11 133 2 139 2 138 2 135 12 138 12 137 12 131 4 142 4 141 4 142 0 143 0 140 0 136 4 140 4 143 4 137 4 143 4 142 4 129 4 141 4 140 4 153 0 146 0 144 0 153 13 154 13 150 13 155 2 148 2 150 2 152 14 144 14 148 14 146 5 150 5 148 5 151 34 147 34 145 34 145 35 152 35 155 35 149 2 155 2 154 2 147 36 151 36 154 36 147 4 158 4 157 4 158 0 159 0 156 0 152 4 156 4 159 4 153 4 159 4 158 4 145 4 157 4 156 4 169 0 162 0 160 0 169 1 170 1 166 1 171 2 164 2 166 2 168 3 160 3 164 3 162 5 166 5 164 5 167 37 163 37 161 37 161 3 168 3 171 3 165 2 171 2 170 2 163 1 167 1 170 1 163 4 174 4 173 4 174 0 175 0 172 0 168 4 172 4 175 4 169 4 175 4 174 4 161 4 173 4 172 4 178 0 179 0 176 0 109 4 177 4 176 4 108 4 176 4 179 4 110 4 178 4 177 4 177 38 178 38 119 38 119 20 178 20 179 20 176 21 177 21 117 21 179 39 176 39 123 39 126 40 125 40 133 40 124 41 125 41 133 41 135 42 115 42 121 42 138 43 139 43 120 43 136 44 129 44 149 44 149 45 151 45 131 45 151 27 142 27 137 27 154 46 155 46 136 46 147 47 145 47 165 47 153 48 170 48 167 48 152 49 145 49 165 49 170 50 171 50 152 50</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_014-mesh" name="Cube.014">
+      <mesh>
+        <source id="Cube_014-mesh-positions">
+          <float_array id="Cube_014-mesh-positions-array" count="36">1.506242 -0.9 -0.1870727 1.506242 0.905 -0.1870727 1.506242 -0.9 0.1918306 1.506242 0.905 0.1918306 1.506242 -0.9 -0.9187073 1.506242 0.905 -0.9187073 1.506242 -0.0275833 -0.1870727 1.506242 0.03258329 -0.1870727 1.506242 -0.0275833 0.1918306 1.506242 0.03258329 0.1918306 1.506242 -0.0275833 -0.9187073 1.506242 0.03258329 -0.9187073</float_array>
+          <technique_common>
+            <accessor source="#Cube_014-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_014-mesh-normals">
+          <float_array id="Cube_014-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_014-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_014-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_014-mesh-positions"/>
+        </vertices>
+        <polylist material="window-material" count="8">
+          <input semantic="VERTEX" source="#Cube_014-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_014-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p>2 0 6 0 8 0 0 0 10 0 6 0 7 0 5 0 1 0 9 0 1 0 3 0 2 0 0 0 6 0 0 0 4 0 10 0 7 0 11 0 5 0 9 0 7 0 1 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array id="Cube-mesh-positions-array" count="48">-0.3578667 -0.2688748 -0.3578667 -0.3578667 -0.2688748 0.3578667 -0.3578667 0.4468587 -0.3578667 -0.3578667 0.4468587 0.3578667 0.3578667 -0.2688748 -0.3578667 0.3578667 -0.2688748 0.3578667 0.3578667 0.4468587 -0.3578667 0.3578667 0.4468587 0.3578667 -0.5577111 -0.6167132 -0.5577111 -0.5577111 -0.6167132 0.5577111 0.5577111 -0.6167132 0.5577111 0.5577111 -0.6167132 -0.5577111 -0.5577111 -1.422455 -0.5577111 -0.5577111 -1.422455 0.5577111 0.5577111 -1.422455 0.5577111 0.5577111 -1.422455 -0.5577111</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array id="Cube-mesh-normals-array" count="42">-1 0 0 0 1 0 1 0 0 0 0.4981663 0.8670815 0 0 -1 0 0 1 0.8670814 0.4981665 0 -0.8670814 0.4981665 0 0 0.4981663 -0.8670815 0 -1 0 0 0.4981663 0.8670815 0.8670816 0.4981662 0 -0.8670816 0.4981662 0 0 0.4981663 -0.8670815</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions"/>
+        </vertices>
+        <polylist material="door_handle-material" count="28">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 0 0 1 0 7 1 2 1 3 1 5 2 6 2 7 2 1 3 10 3 5 3 2 4 4 4 0 4 7 5 1 5 5 5 9 5 14 5 10 5 5 6 11 6 4 6 0 7 9 7 1 7 4 8 8 8 0 8 13 9 15 9 14 9 8 0 13 0 9 0 11 4 12 4 8 4 10 2 15 2 11 2 3 0 2 0 0 0 7 1 6 1 2 1 5 2 4 2 6 2 1 10 9 10 10 10 2 4 6 4 4 4 7 5 3 5 1 5 9 5 13 5 14 5 5 11 10 11 11 11 0 12 8 12 9 12 4 13 11 13 8 13 13 9 12 9 15 9 8 0 12 0 13 0 11 4 15 4 12 4 10 2 14 2 15 2</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="right-house_location_X">
+      <source id="right-house_location_X-input">
+        <float_array id="right-house_location_X-input-array" count="2">0.7916667 2.125</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_X-output">
+        <float_array id="right-house_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_X-interpolation">
+        <Name_array id="right-house_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#right-house_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_X-intangent">
+        <float_array id="right-house_location_X-intangent-array" count="4">0.2866284 -1.111568 1.609134 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_X-outtangent">
+        <float_array id="right-house_location_X-outtangent-array" count="4">1.319271 -1.111568 2.641776 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="right-house_location_X-sampler">
+        <input semantic="INPUT" source="#right-house_location_X-input"/>
+        <input semantic="OUTPUT" source="#right-house_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#right-house_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#right-house_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#right-house_location_X-outtangent"/>
+      </sampler>
+      <channel source="#right-house_location_X-sampler" target="right-house/location.X"/>
+    </animation>
+    <animation id="right-house_location_Y">
+      <source id="right-house_location_Y-input">
+        <float_array id="right-house_location_Y-input-array" count="2">0.7916667 2.125</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Y-output">
+        <float_array id="right-house_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Y-interpolation">
+        <Name_array id="right-house_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#right-house_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Y-intangent">
+        <float_array id="right-house_location_Y-intangent-array" count="4">0.2866284 1.535883 1.609134 1.535883</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Y-outtangent">
+        <float_array id="right-house_location_Y-outtangent-array" count="4">1.319271 1.535883 2.641776 1.535883</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="right-house_location_Y-sampler">
+        <input semantic="INPUT" source="#right-house_location_Y-input"/>
+        <input semantic="OUTPUT" source="#right-house_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#right-house_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#right-house_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#right-house_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#right-house_location_Y-sampler" target="right-house/location.Y"/>
+    </animation>
+    <animation id="right-house_location_Z">
+      <source id="right-house_location_Z-input">
+        <float_array id="right-house_location_Z-input-array" count="2">0.7916667 2.125</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Z-output">
+        <float_array id="right-house_location_Z-output-array" count="2">11.32015 1.027748</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Z-interpolation">
+        <Name_array id="right-house_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#right-house_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Z-intangent">
+        <float_array id="right-house_location_Z-intangent-array" count="4">0.2866284 11.32015 1.609134 1.027748</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="right-house_location_Z-outtangent">
+        <float_array id="right-house_location_Z-outtangent-array" count="4">1.319271 11.32015 2.641776 1.027748</float_array>
+        <technique_common>
+          <accessor source="#right-house_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="right-house_location_Z-sampler">
+        <input semantic="INPUT" source="#right-house_location_Z-input"/>
+        <input semantic="OUTPUT" source="#right-house_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#right-house_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#right-house_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#right-house_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#right-house_location_Z-sampler" target="right-house/location.Z"/>
+    </animation>
+    <animation id="top-house_location_X">
+      <source id="top-house_location_X-input">
+        <float_array id="top-house_location_X-input-array" count="2">1.25 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_X-output">
+        <float_array id="top-house_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_X-interpolation">
+        <Name_array id="top-house_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-house_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_X-intangent">
+        <float_array id="top-house_location_X-intangent-array" count="4">0.7432076 -1.111568 2.065713 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_X-outtangent">
+        <float_array id="top-house_location_X-outtangent-array" count="4">1.77585 -1.111568 3.098356 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-house_location_X-sampler">
+        <input semantic="INPUT" source="#top-house_location_X-input"/>
+        <input semantic="OUTPUT" source="#top-house_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#top-house_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-house_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-house_location_X-outtangent"/>
+      </sampler>
+      <channel source="#top-house_location_X-sampler" target="top-house/location.X"/>
+    </animation>
+    <animation id="top-house_location_Y">
+      <source id="top-house_location_Y-input">
+        <float_array id="top-house_location_Y-input-array" count="2">1.25 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Y-output">
+        <float_array id="top-house_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Y-interpolation">
+        <Name_array id="top-house_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-house_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Y-intangent">
+        <float_array id="top-house_location_Y-intangent-array" count="4">0.7432076 1.535883 2.065713 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Y-outtangent">
+        <float_array id="top-house_location_Y-outtangent-array" count="4">1.77585 1.535883 3.098356 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-house_location_Y-sampler">
+        <input semantic="INPUT" source="#top-house_location_Y-input"/>
+        <input semantic="OUTPUT" source="#top-house_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#top-house_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-house_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-house_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#top-house_location_Y-sampler" target="top-house/location.Y"/>
+    </animation>
+    <animation id="top-house_location_Z">
+      <source id="top-house_location_Z-input">
+        <float_array id="top-house_location_Z-input-array" count="2">1.25 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Z-output">
+        <float_array id="top-house_location_Z-output-array" count="2">12.958 2.675341</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Z-interpolation">
+        <Name_array id="top-house_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-house_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Z-intangent">
+        <float_array id="top-house_location_Z-intangent-array" count="4">0.7432076 12.958 2.065713 2.675341</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-house_location_Z-outtangent">
+        <float_array id="top-house_location_Z-outtangent-array" count="4">1.77585 12.958 3.098356 2.675341</float_array>
+        <technique_common>
+          <accessor source="#top-house_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-house_location_Z-sampler">
+        <input semantic="INPUT" source="#top-house_location_Z-input"/>
+        <input semantic="OUTPUT" source="#top-house_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#top-house_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-house_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-house_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#top-house_location_Z-sampler" target="top-house/location.Z"/>
+    </animation>
+    <animation id="roof_location_X">
+      <source id="roof_location_X-input">
+        <float_array id="roof_location_X-input-array" count="2">1.458333 2.791667</float_array>
+        <technique_common>
+          <accessor source="#roof_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_X-output">
+        <float_array id="roof_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#roof_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_X-interpolation">
+        <Name_array id="roof_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#roof_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_X-intangent">
+        <float_array id="roof_location_X-intangent-array" count="4">0.969992 -1.111568 2.292498 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#roof_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_X-outtangent">
+        <float_array id="roof_location_X-outtangent-array" count="4">2.002635 -1.111568 3.325141 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#roof_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="roof_location_X-sampler">
+        <input semantic="INPUT" source="#roof_location_X-input"/>
+        <input semantic="OUTPUT" source="#roof_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#roof_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#roof_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#roof_location_X-outtangent"/>
+      </sampler>
+      <channel source="#roof_location_X-sampler" target="roof/location.X"/>
+    </animation>
+    <animation id="roof_location_Y">
+      <source id="roof_location_Y-input">
+        <float_array id="roof_location_Y-input-array" count="2">1.458333 2.791667</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Y-output">
+        <float_array id="roof_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Y-interpolation">
+        <Name_array id="roof_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#roof_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Y-intangent">
+        <float_array id="roof_location_Y-intangent-array" count="4">0.969992 1.535883 2.292498 1.535883</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Y-outtangent">
+        <float_array id="roof_location_Y-outtangent-array" count="4">2.002635 1.535883 3.325141 1.535883</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="roof_location_Y-sampler">
+        <input semantic="INPUT" source="#roof_location_Y-input"/>
+        <input semantic="OUTPUT" source="#roof_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#roof_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#roof_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#roof_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#roof_location_Y-sampler" target="roof/location.Y"/>
+    </animation>
+    <animation id="roof_location_Z">
+      <source id="roof_location_Z-input">
+        <float_array id="roof_location_Z-input-array" count="2">1.458333 2.791667</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Z-output">
+        <float_array id="roof_location_Z-output-array" count="2">12.958 2.665592</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Z-interpolation">
+        <Name_array id="roof_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#roof_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Z-intangent">
+        <float_array id="roof_location_Z-intangent-array" count="4">0.969992 12.958 2.292498 2.665592</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="roof_location_Z-outtangent">
+        <float_array id="roof_location_Z-outtangent-array" count="4">2.002635 12.958 3.325141 2.665592</float_array>
+        <technique_common>
+          <accessor source="#roof_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="roof_location_Z-sampler">
+        <input semantic="INPUT" source="#roof_location_Z-input"/>
+        <input semantic="OUTPUT" source="#roof_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#roof_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#roof_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#roof_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#roof_location_Z-sampler" target="roof/location.Z"/>
+    </animation>
+    <animation id="left-house_location_X">
+      <source id="left-house_location_X-input">
+        <float_array id="left-house_location_X-input-array" count="2">0.4166666 1.75</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_X-output">
+        <float_array id="left-house_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_X-interpolation">
+        <Name_array id="left-house_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#left-house_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_X-intangent">
+        <float_array id="left-house_location_X-intangent-array" count="4">-0.09489017 -1.111568 1.227615 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_X-outtangent">
+        <float_array id="left-house_location_X-outtangent-array" count="4">0.9377526 -1.111568 2.260258 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="left-house_location_X-sampler">
+        <input semantic="INPUT" source="#left-house_location_X-input"/>
+        <input semantic="OUTPUT" source="#left-house_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#left-house_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#left-house_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#left-house_location_X-outtangent"/>
+      </sampler>
+      <channel source="#left-house_location_X-sampler" target="left-house/location.X"/>
+    </animation>
+    <animation id="left-house_location_Y">
+      <source id="left-house_location_Y-input">
+        <float_array id="left-house_location_Y-input-array" count="2">0.4166666 1.75</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Y-output">
+        <float_array id="left-house_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Y-interpolation">
+        <Name_array id="left-house_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#left-house_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Y-intangent">
+        <float_array id="left-house_location_Y-intangent-array" count="4">-0.09489017 1.535883 1.227615 1.535883</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Y-outtangent">
+        <float_array id="left-house_location_Y-outtangent-array" count="4">0.9377526 1.535883 2.260258 1.535883</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="left-house_location_Y-sampler">
+        <input semantic="INPUT" source="#left-house_location_Y-input"/>
+        <input semantic="OUTPUT" source="#left-house_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#left-house_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#left-house_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#left-house_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#left-house_location_Y-sampler" target="left-house/location.Y"/>
+    </animation>
+    <animation id="left-house_location_Z">
+      <source id="left-house_location_Z-input">
+        <float_array id="left-house_location_Z-input-array" count="2">0.4166666 1.75</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Z-output">
+        <float_array id="left-house_location_Z-output-array" count="2">10.60706 0.314661</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Z-interpolation">
+        <Name_array id="left-house_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#left-house_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Z-intangent">
+        <float_array id="left-house_location_Z-intangent-array" count="4">-0.09489017 10.60706 1.227615 0.314661</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="left-house_location_Z-outtangent">
+        <float_array id="left-house_location_Z-outtangent-array" count="4">0.9377526 10.60706 2.260258 0.314661</float_array>
+        <technique_common>
+          <accessor source="#left-house_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="left-house_location_Z-sampler">
+        <input semantic="INPUT" source="#left-house_location_Z-input"/>
+        <input semantic="OUTPUT" source="#left-house_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#left-house_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#left-house_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#left-house_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#left-house_location_Z-sampler" target="left-house/location.Z"/>
+    </animation>
+    <animation id="chimney_location_X">
+      <source id="chimney_location_X-input">
+        <float_array id="chimney_location_X-input-array" count="2">1.875 3.208333</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_X-output">
+        <float_array id="chimney_location_X-output-array" count="2">-1.474606 -1.474606</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_X-interpolation">
+        <Name_array id="chimney_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#chimney_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_X-intangent">
+        <float_array id="chimney_location_X-intangent-array" count="4">1.358679 -1.474606 2.681184 -1.474606</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_X-outtangent">
+        <float_array id="chimney_location_X-outtangent-array" count="4">2.391321 -1.474606 3.713826 -1.474606</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="chimney_location_X-sampler">
+        <input semantic="INPUT" source="#chimney_location_X-input"/>
+        <input semantic="OUTPUT" source="#chimney_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#chimney_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#chimney_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#chimney_location_X-outtangent"/>
+      </sampler>
+      <channel source="#chimney_location_X-sampler" target="chimney/location.X"/>
+    </animation>
+    <animation id="chimney_location_Y">
+      <source id="chimney_location_Y-input">
+        <float_array id="chimney_location_Y-input-array" count="2">1.875 3.208333</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Y-output">
+        <float_array id="chimney_location_Y-output-array" count="2">0.4275379 0.4275379</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Y-interpolation">
+        <Name_array id="chimney_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#chimney_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Y-intangent">
+        <float_array id="chimney_location_Y-intangent-array" count="4">1.358679 0.4275379 2.681184 0.4275379</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Y-outtangent">
+        <float_array id="chimney_location_Y-outtangent-array" count="4">2.391321 0.4275379 3.713826 0.4275379</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="chimney_location_Y-sampler">
+        <input semantic="INPUT" source="#chimney_location_Y-input"/>
+        <input semantic="OUTPUT" source="#chimney_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#chimney_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#chimney_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#chimney_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#chimney_location_Y-sampler" target="chimney/location.Y"/>
+    </animation>
+    <animation id="chimney_location_Z">
+      <source id="chimney_location_Z-input">
+        <float_array id="chimney_location_Z-input-array" count="2">1.875 3.208333</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Z-output">
+        <float_array id="chimney_location_Z-output-array" count="2">12.92154 2.678595</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Z-interpolation">
+        <Name_array id="chimney_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#chimney_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Z-intangent">
+        <float_array id="chimney_location_Z-intangent-array" count="4">1.358679 12.92154 2.681184 2.678595</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="chimney_location_Z-outtangent">
+        <float_array id="chimney_location_Z-outtangent-array" count="4">2.391321 12.92154 3.713826 2.678595</float_array>
+        <technique_common>
+          <accessor source="#chimney_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="chimney_location_Z-sampler">
+        <input semantic="INPUT" source="#chimney_location_Z-input"/>
+        <input semantic="OUTPUT" source="#chimney_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#chimney_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#chimney_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#chimney_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#chimney_location_Z-sampler" target="chimney/location.Z"/>
+    </animation>
+    <animation id="top-door_location_X">
+      <source id="top-door_location_X-input">
+        <float_array id="top-door_location_X-input-array" count="2">1.083333 2.416667</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_X-output">
+        <float_array id="top-door_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_X-interpolation">
+        <Name_array id="top-door_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-door_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_X-intangent">
+        <float_array id="top-door_location_X-intangent-array" count="4">0.6015107 -1.111568 1.924016 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_X-outtangent">
+        <float_array id="top-door_location_X-outtangent-array" count="4">1.634153 -1.111568 2.956659 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-door_location_X-sampler">
+        <input semantic="INPUT" source="#top-door_location_X-input"/>
+        <input semantic="OUTPUT" source="#top-door_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#top-door_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-door_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-door_location_X-outtangent"/>
+      </sampler>
+      <channel source="#top-door_location_X-sampler" target="top-door/location.X"/>
+    </animation>
+    <animation id="top-door_location_Y">
+      <source id="top-door_location_Y-input">
+        <float_array id="top-door_location_Y-input-array" count="2">1.083333 2.416667</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Y-output">
+        <float_array id="top-door_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Y-interpolation">
+        <Name_array id="top-door_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-door_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Y-intangent">
+        <float_array id="top-door_location_Y-intangent-array" count="4">0.6015107 1.535883 1.924016 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Y-outtangent">
+        <float_array id="top-door_location_Y-outtangent-array" count="4">1.634153 1.535883 2.956659 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-door_location_Y-sampler">
+        <input semantic="INPUT" source="#top-door_location_Y-input"/>
+        <input semantic="OUTPUT" source="#top-door_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#top-door_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-door_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-door_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#top-door_location_Y-sampler" target="top-door/location.Y"/>
+    </animation>
+    <animation id="top-door_location_Z">
+      <source id="top-door_location_Z-input">
+        <float_array id="top-door_location_Z-input-array" count="2">1.083333 2.416667</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Z-output">
+        <float_array id="top-door_location_Z-output-array" count="2">12.958 2.675191</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Z-interpolation">
+        <Name_array id="top-door_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-door_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Z-intangent">
+        <float_array id="top-door_location_Z-intangent-array" count="4">0.6015107 12.958 1.924016 2.675191</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-door_location_Z-outtangent">
+        <float_array id="top-door_location_Z-outtangent-array" count="4">1.634153 12.958 2.956659 2.675191</float_array>
+        <technique_common>
+          <accessor source="#top-door_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-door_location_Z-sampler">
+        <input semantic="INPUT" source="#top-door_location_Z-input"/>
+        <input semantic="OUTPUT" source="#top-door_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#top-door_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-door_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-door_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#top-door_location_Z-sampler" target="top-door/location.Z"/>
+    </animation>
+    <animation id="door_location_X">
+      <source id="door_location_X-input">
+        <float_array id="door_location_X-input-array" count="2">0.9583333 2.291667</float_array>
+        <technique_common>
+          <accessor source="#door_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_X-output">
+        <float_array id="door_location_X-output-array" count="2">-0.1115684 -0.1115684</float_array>
+        <technique_common>
+          <accessor source="#door_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_X-interpolation">
+        <Name_array id="door_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#door_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_X-intangent">
+        <float_array id="door_location_X-intangent-array" count="4">0.4652275 -0.1115684 1.787733 -0.1115684</float_array>
+        <technique_common>
+          <accessor source="#door_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_X-outtangent">
+        <float_array id="door_location_X-outtangent-array" count="4">1.49787 -0.1115684 2.820375 -0.1115684</float_array>
+        <technique_common>
+          <accessor source="#door_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_location_X-sampler">
+        <input semantic="INPUT" source="#door_location_X-input"/>
+        <input semantic="OUTPUT" source="#door_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#door_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#door_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#door_location_X-outtangent"/>
+      </sampler>
+      <channel source="#door_location_X-sampler" target="door/location.X"/>
+    </animation>
+    <animation id="door_location_Y">
+      <source id="door_location_Y-input">
+        <float_array id="door_location_Y-input-array" count="2">0.9583333 2.291667</float_array>
+        <technique_common>
+          <accessor source="#door_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Y-output">
+        <float_array id="door_location_Y-output-array" count="2">1.279318 1.279318</float_array>
+        <technique_common>
+          <accessor source="#door_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Y-interpolation">
+        <Name_array id="door_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#door_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Y-intangent">
+        <float_array id="door_location_Y-intangent-array" count="4">0.4652275 1.279318 1.787733 1.279318</float_array>
+        <technique_common>
+          <accessor source="#door_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Y-outtangent">
+        <float_array id="door_location_Y-outtangent-array" count="4">1.49787 1.279318 2.820375 1.279318</float_array>
+        <technique_common>
+          <accessor source="#door_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_location_Y-sampler">
+        <input semantic="INPUT" source="#door_location_Y-input"/>
+        <input semantic="OUTPUT" source="#door_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#door_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#door_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#door_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#door_location_Y-sampler" target="door/location.Y"/>
+    </animation>
+    <animation id="door_location_Z">
+      <source id="door_location_Z-input">
+        <float_array id="door_location_Z-input-array" count="2">0.9583333 2.291667</float_array>
+        <technique_common>
+          <accessor source="#door_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Z-output">
+        <float_array id="door_location_Z-output-array" count="2">11.12665 0.8342457</float_array>
+        <technique_common>
+          <accessor source="#door_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Z-interpolation">
+        <Name_array id="door_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#door_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Z-intangent">
+        <float_array id="door_location_Z-intangent-array" count="4">0.4652275 11.12665 1.787733 0.8342457</float_array>
+        <technique_common>
+          <accessor source="#door_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_location_Z-outtangent">
+        <float_array id="door_location_Z-outtangent-array" count="4">1.49787 11.12665 2.820375 0.8342457</float_array>
+        <technique_common>
+          <accessor source="#door_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_location_Z-sampler">
+        <input semantic="INPUT" source="#door_location_Z-input"/>
+        <input semantic="OUTPUT" source="#door_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#door_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#door_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#door_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#door_location_Z-sampler" target="door/location.Z"/>
+    </animation>
+    <animation id="fence_location_X">
+      <source id="fence_location_X-input">
+        <float_array id="fence_location_X-input-array" count="2">0.625 1.791667</float_array>
+        <technique_common>
+          <accessor source="#fence_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_X-output">
+        <float_array id="fence_location_X-output-array" count="2">-2.087364 -2.087364</float_array>
+        <technique_common>
+          <accessor source="#fence_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_X-interpolation">
+        <Name_array id="fence_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#fence_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_X-intangent">
+        <float_array id="fence_location_X-intangent-array" count="4">0.1226686 -2.087364 1.278508 -2.087364</float_array>
+        <technique_common>
+          <accessor source="#fence_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_X-outtangent">
+        <float_array id="fence_location_X-outtangent-array" count="4">1.155311 -2.087364 2.31115 -2.087364</float_array>
+        <technique_common>
+          <accessor source="#fence_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="fence_location_X-sampler">
+        <input semantic="INPUT" source="#fence_location_X-input"/>
+        <input semantic="OUTPUT" source="#fence_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#fence_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#fence_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#fence_location_X-outtangent"/>
+      </sampler>
+      <channel source="#fence_location_X-sampler" target="fence/location.X"/>
+    </animation>
+    <animation id="fence_location_Y">
+      <source id="fence_location_Y-input">
+        <float_array id="fence_location_Y-input-array" count="2">0.625 1.791667</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Y-output">
+        <float_array id="fence_location_Y-output-array" count="2">-0.6666393 -0.6666393</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Y-interpolation">
+        <Name_array id="fence_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#fence_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Y-intangent">
+        <float_array id="fence_location_Y-intangent-array" count="4">0.1226686 -0.6666393 1.278508 -0.6666393</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Y-outtangent">
+        <float_array id="fence_location_Y-outtangent-array" count="4">1.155311 -0.6666393 2.31115 -0.6666393</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="fence_location_Y-sampler">
+        <input semantic="INPUT" source="#fence_location_Y-input"/>
+        <input semantic="OUTPUT" source="#fence_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#fence_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#fence_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#fence_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#fence_location_Y-sampler" target="fence/location.Y"/>
+    </animation>
+    <animation id="fence_location_Z">
+      <source id="fence_location_Z-input">
+        <float_array id="fence_location_Z-input-array" count="2">0.625 1.791667</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Z-output">
+        <float_array id="fence_location_Z-output-array" count="2">12.93933 2.677049</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Z-interpolation">
+        <Name_array id="fence_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#fence_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Z-intangent">
+        <float_array id="fence_location_Z-intangent-array" count="4">0.1226686 12.93933 1.278508 2.677049</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="fence_location_Z-outtangent">
+        <float_array id="fence_location_Z-outtangent-array" count="4">1.155311 12.93933 2.31115 2.677049</float_array>
+        <technique_common>
+          <accessor source="#fence_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="fence_location_Z-sampler">
+        <input semantic="INPUT" source="#fence_location_Z-input"/>
+        <input semantic="OUTPUT" source="#fence_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#fence_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#fence_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#fence_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#fence_location_Z-sampler" target="fence/location.Z"/>
+    </animation>
+    <animation id="top-window_location_X">
+      <source id="top-window_location_X-input">
+        <float_array id="top-window_location_X-input-array" count="2">1.291667 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_X-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_X-output">
+        <float_array id="top-window_location_X-output-array" count="2">-1.111568 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_X-output-array" count="2" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_X-interpolation">
+        <Name_array id="top-window_location_X-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-window_location_X-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_X-intangent">
+        <float_array id="top-window_location_X-intangent-array" count="4">0.7339821 -1.111568 2.056487 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_X-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_X-outtangent">
+        <float_array id="top-window_location_X-outtangent-array" count="4">1.766624 -1.111568 3.08913 -1.111568</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_X-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-window_location_X-sampler">
+        <input semantic="INPUT" source="#top-window_location_X-input"/>
+        <input semantic="OUTPUT" source="#top-window_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#top-window_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-window_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-window_location_X-outtangent"/>
+      </sampler>
+      <channel source="#top-window_location_X-sampler" target="top-window/location.X"/>
+    </animation>
+    <animation id="top-window_location_Y">
+      <source id="top-window_location_Y-input">
+        <float_array id="top-window_location_Y-input-array" count="2">1.291667 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Y-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Y-output">
+        <float_array id="top-window_location_Y-output-array" count="2">1.535883 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Y-output-array" count="2" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Y-interpolation">
+        <Name_array id="top-window_location_Y-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-window_location_Y-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Y-intangent">
+        <float_array id="top-window_location_Y-intangent-array" count="4">0.7339821 1.535883 2.056487 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Y-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Y-outtangent">
+        <float_array id="top-window_location_Y-outtangent-array" count="4">1.766624 1.535883 3.08913 1.535883</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Y-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-window_location_Y-sampler">
+        <input semantic="INPUT" source="#top-window_location_Y-input"/>
+        <input semantic="OUTPUT" source="#top-window_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#top-window_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-window_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-window_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#top-window_location_Y-sampler" target="top-window/location.Y"/>
+    </animation>
+    <animation id="top-window_location_Z">
+      <source id="top-window_location_Z-input">
+        <float_array id="top-window_location_Z-input-array" count="2">1.291667 2.583333</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Z-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Z-output">
+        <float_array id="top-window_location_Z-output-array" count="2">12.958 2.665592</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Z-output-array" count="2" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Z-interpolation">
+        <Name_array id="top-window_location_Z-interpolation-array" count="2">BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#top-window_location_Z-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Z-intangent">
+        <float_array id="top-window_location_Z-intangent-array" count="4">0.7339821 12.958 2.056487 2.665592</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Z-intangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="top-window_location_Z-outtangent">
+        <float_array id="top-window_location_Z-outtangent-array" count="4">1.766624 12.958 3.08913 2.665592</float_array>
+        <technique_common>
+          <accessor source="#top-window_location_Z-outtangent-array" count="2" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="top-window_location_Z-sampler">
+        <input semantic="INPUT" source="#top-window_location_Z-input"/>
+        <input semantic="OUTPUT" source="#top-window_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#top-window_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#top-window_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#top-window_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#top-window_location_Z-sampler" target="top-window/location.Z"/>
+    </animation>
+  </library_animations>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <translate sid="location">11.69779 -8.236364 10.08064</translate>
+        <rotate sid="rotationZ">0 0 1 45</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 60</rotate>
+        <scale sid="scale">0.9999999 1 1</scale>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <translate sid="location">-1.685155 -1.566716 0.9820516</translate>
+        <rotate sid="rotationZ">0 0 1 106.9363</rotate>
+        <rotate sid="rotationY">0 1 0 3.163707</rotate>
+        <rotate sid="rotationX">1 0 0 37.26105</rotate>
+        <scale sid="scale">1 0.9999999 1</scale>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="right-house" name="right-house" type="NODE">
+        <translate sid="location">-1.111568 1.535883 1.027748</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_004-mesh" name="right-house">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="base_house-material" target="#base_house-material"/>
+              <instance_material symbol="window-material" target="#window-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="top-house" name="top-house" type="NODE">
+        <translate sid="location">-1.111568 1.535883 2.675341</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_005-mesh" name="top-house">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="base_house-material" target="#base_house-material"/>
+              <instance_material symbol="inside-material" target="#inside-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="roof" name="roof" type="NODE">
+        <translate sid="location">-1.111568 1.535883 2.665592</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_006-mesh" name="roof">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="roof-material" target="#roof-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="left-house" name="left-house" type="NODE">
+        <translate sid="location">-1.111568 1.535883 0.314661</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_007-mesh" name="left-house">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="base_house-material" target="#base_house-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="chimney" name="chimney" type="NODE">
+        <translate sid="location">-1.474606 0.4275379 2.678595</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.7752523 0.7752523 1</scale>
+        <instance_geometry url="#Cube_008-mesh" name="chimney">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="chimney-material" target="#chimney-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="top-door" name="top-door" type="NODE">
+        <translate sid="location">-1.111568 1.535883 2.675191</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_010-mesh" name="top-door">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="door-material" target="#door-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="door" name="door" type="NODE">
+        <translate sid="location">-0.1115685 1.279318 0.8342457</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_011-mesh" name="door">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="base_house-material" target="#base_house-material"/>
+              <instance_material symbol="slat-material" target="#slat-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="fence" name="fence" type="NODE">
+        <translate sid="location">-2.087364 -0.6666393 2.677049</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_013-mesh" name="fence">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="roof-material" target="#roof-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="top-window" name="top-window" type="NODE">
+        <translate sid="location">-1.111568 1.535883 2.665592</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#Cube_014-mesh" name="top-window">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="window-material" target="#window-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Lamp_001" name="Lamp_001" type="NODE">
+        <translate sid="location">2.27608 1.373206 1.506966</translate>
+        <rotate sid="rotationZ">0 0 1 106.9363</rotate>
+        <rotate sid="rotationY">0 1 0 3.163707</rotate>
+        <rotate sid="rotationX">1 0 0 37.26105</rotate>
+        <scale sid="scale">1 0.9999999 1</scale>
+        <instance_light url="#Lamp_001-light"/>
+      </node>
+      <node id="Lamp_002" name="Lamp_002" type="NODE">
+        <translate sid="location">-1.567944 -0.4763578 3.654499</translate>
+        <rotate sid="rotationZ">0 0 1 106.9363</rotate>
+        <rotate sid="rotationY">0 1 0 3.163707</rotate>
+        <rotate sid="rotationX">1 0 0 37.26105</rotate>
+        <scale sid="scale">1 0.9999999 1</scale>
+        <instance_light url="#Lamp_002-light"/>
+      </node>
+      <node id="Lamp_003" name="Lamp_003" type="NODE">
+        <translate sid="location">-1.447547 1.35451 5.880427</translate>
+        <rotate sid="rotationZ">0 0 1 106.9363</rotate>
+        <rotate sid="rotationY">0 1 0 3.163707</rotate>
+        <rotate sid="rotationX">1 0 0 37.26105</rotate>
+        <scale sid="scale">1 0.9999999 1</scale>
+        <instance_light url="#Lamp_003-light"/>
+      </node>
+      <node id="Cube" name="Cube" type="NODE">
+        <translate sid="location">-0.7007804 0.5238002 2.124366</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.03032361 0.03032361 0.03032361</scale>
+        <instance_geometry url="#Cube-mesh" name="Cube">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="door_handle-material" target="#door_handle-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
