@@ -2,6 +2,74 @@
 
 {% block content %}
 
-<canvas style="width: 800px; height:600px;"id="three"> </canvas>
-<p> Hello world </p>
+<!--<canvas style="width: 800px; height:600px;"id="three"> </canvas>-->
+
+<nav>
+  <svg class="logo"> 
+     <use xlink:href="#logo"></use>
+  </svg>
+  <li class="nav-item">
+    <a href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a href="#">Services</a>
+  </li>
+  <li class="nav-item">
+    <a href="#">About</a>
+  </li>
+</nav>
+<header> 
+  <svg class="header-text"> 
+     <use xlink:href="#header-text"></use>
+  </svg>
+  <h1> Sustainability <br> Consulting </h1>
+</header>
+
+<div class="l-container"> 
+
+  <div class="item">
+    <svg class="item-icon"> 
+       <use xlink:href="#plug"></use>
+    </svg>
+    <div class="text">
+      <h2> Energy <br> Benchmarking</h2> 
+      <p> Sequi sed non qui et. Voluptatem quia incidunt molestiae voluptate et ut
+      eum. Qui veniam soluta quas minus laborum quaerat quia corrupti. Itaque qui
+      at voluptatem pariatur velit.</p>
+    </div>
+  </div>
+
+  <div class="item-left">
+    <div class="text">
+      <h2> Energy <br> Benchmarking</h2> 
+      <p> Sequi sed non qui et. Voluptatem quia incidunt molestiae voluptate et ut
+      eum. Qui veniam soluta quas minus laborum quaerat quia corrupti. Itaque qui
+      at voluptatem pariatur velit.</p>
+    </div>
+    <svg class="item-icon"> 
+       <use xlink:href="#leed"></use>
+    </svg>
+  </div>
+
+  <div class="items-cert">
+    <h2> Certified Materials </h2>
+    <svg class="item-icon"> 
+       <use xlink:href="#wall"></use>
+    </svg>
+    <svg class="item-icon"> 
+       <use xlink:href="#paint"></use>
+    </svg>
+    <svg class="item-icon"> 
+       <use xlink:href="#window"></use>
+    </svg>
+    <svg class="item-icon"> 
+       <use xlink:href="#roof"></use>
+    </svg>
+    
+  </div>
+
+
+</div>
+
+
 {% endblock %}

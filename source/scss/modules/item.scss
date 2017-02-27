@@ -1,0 +1,43 @@
+.item {
+  background-color: $light-green;
+  padding: 5em;
+  svg {
+    use { 
+      @include span(6 of 12);
+    }
+  }
+  .text {
+    @include span(6 of 12 last);
+    color: $cool-gray;
+  }
+}
+.items-cert {
+  height: 200px;
+  background-color: $light-green;
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  svg {
+    height: 14.4vw;
+    background-color: white;
+    border-radius: 100%;
+    @include gallery(2 of 12);
+  }
+}
+
+.item-left {
+  background-color: $blue-green;
+  padding: 5em;
+  svg {
+    use { 
+      @include span(6 of 12 last);
+    }
+  }
+  .text {
+    text-align: right;
+    @include span(6 of 12);
+    color: white;
+  }
+}
+

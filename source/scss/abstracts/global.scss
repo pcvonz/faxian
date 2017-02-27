@@ -1,0 +1,43 @@
+html {
+  font-family: 'Fira Sans';
+  color: $cool-gray;
+}
+body {
+  margin: 0;
+}
+
+#svg-iconset {
+  display: none;
+}
+
+
+button {
+  cursor: pointer;
+  color: white;
+  background-color: $dark-green;
+  border: 1px solid $light-green;
+  border-radius: 0;
+  padding: .3em .5em;
+  font-weight: 600;
+  border-radius: .5px;
+}
+button:hover {
+  color: white;  
+  background-color: $blue-green;
+}
+
+select {
+  border: 1px solid $light-green;
+  background-color: white;
+}
+
+
+button.btn-cancel {
+  border: 1px solid white;
+  background-color: $secondary-red;
+
+}
+button.btn-cancel:hover {
+  border: 1px solid white;
+  background-color: lighten($secondary-red, 10%);
+}

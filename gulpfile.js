@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var nunjucks = require('gulp-nunjucks');
 var imagemin = require('gulp-imagemin');
-
+var svgSprite = require('gulp-svg-sprite');
 
 //TODO:
 //Implement the optimze functions from Zell's tutorial
@@ -19,6 +19,34 @@ gulp.task('nunjucks', function () {
 });
 
 
+// Config
+//
+//
+
+config = {
+  shape: {
+    dimension: {         // Set maximum dimensions
+      maxWidth: 32,
+      maxHeight: 32
+    },
+    spacing: {         // Add padding
+     //   padding     : 10
+    },
+    //dest            : 'out/intermediate-svg'    // Keep the intermediate files
+  },
+  mode: {
+    symbol: true      // Activate the «symbol» mode
+  }
+};
+
+gulp.task('svg', function() {
+  gulp.src('source/images/icons/**/*.svg')
+                              .pipe(svgSprite(config))
+                                .on('error', function(error) {
+                                  console.log(error);
+                                })
+                              .pipe(gulp.dest('templates'));
+});
 //Function to optimize images (not really utilized)
 gulp.task('images', function() {
     return gulp.src('source/images/**/*.+(png|jpg|gif|svg)')
@@ -43,7 +71,7 @@ gulp.task('sass', function(){
     return gulp.src('source/style.scss')
         .pipe(sass({
             outputStyle: 'compressed',
-            includePaths: ['node_modules/susy/sass', 'node_modules/breakpoint-sass/stylesheets']
+            includePaths: ['node_modules/susy/sass', 'node_modules/breakpoint-sass/stylesheets', 'node_modules/normalize-scss/sass']
         }).on('error', sass.logError))
         .pipe(gulp.dest('public/css/'))
         .pipe(browserSync.reload({
@@ -65,10 +93,11 @@ gulp.task('browserSync', function() {
 //We put browser sync in an array as the second argument
 //that means that we want to run the browser sync task first
 //and then watch for file changers
-gulp.task('watch', ['dae', 'fonts', 'nunjucks', 'sass', 'images', 'js', 'browserSync'], function() {
+gulp.task('watch', ['dae', 'svg', 'fonts', 'nunjucks', 'sass', 'images', 'js', 'browserSync'], function() {
     gulp.watch('source/scss/**/*.scss', ['sass']);
     gulp.watch('templates/**/*.html', ['nunjucks']);
     gulp.watch('source/js/**/*.js', ['js', browserSync.reload]);
-    gulp.watch('source/images/**/*.+(png|jpg|gif|svg)', browserSync.reload);
+    gulp.watch('source/images/**/*.+(png|jpg|gif|svg)', ['images', browserSync.reload]);
+    gulp.watch('source/images/icons/*.svg', ['svg', 'nunjucks', browserSync.reload]);
     gulp.watch('source/3d/**/*.dae', ['dae', browserSync.reload]);
 });

@@ -1,0 +1,21 @@
+nav {
+  background-color: transparentize(white, .2);
+  height: 4em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  li {
+    list-style: none;
+    float: left;
+    margin-left: 1em;
+    a { 
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1.1em;
+    }
+  }
+}

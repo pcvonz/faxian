@@ -1,11 +1,26 @@
-//globals / variables
-@import "susy";
-@import "breakpoint";
+@import "susy.scss";
+@import "breakpoint.scss";
+@import "normalize.scss";
 
-//layouts
+//abstracts
+@import "scss/abstracts/abstracts.scss";
+@import "scss/abstracts/variables.scss";
+@import "scss/abstracts/global.scss";
+
+
+@import "scss/custom.scss";
+//@import "scss/normalize.scss";
 
 //modules
+@import "scss/modules/form.scss";
+@import "scss/modules/icons.scss";
+@import "scss/modules/item.scss";
 
-//states
-
+//layouts
+@import "scss/layouts/l-component.scss";
+@import "scss/layouts/grid";
+@import "scss/layouts/l-container.scss";
+@import "scss/layouts/l-form.scss";
+@import "scss/layouts/nav.scss";
+@import "scss/layouts/header.scss";
 
