@@ -1,6 +1,5 @@
 @import "susy.scss";
-@import "breakpoint.scss";
-@import "normalize.scss";
+@import "breakpoint.scss"; @import "normalize.scss";
 
 //abstracts
 @import "scss/abstracts/abstracts.scss";
@@ -15,6 +14,7 @@
 @import "scss/modules/form.scss";
 @import "scss/modules/icons.scss";
 @import "scss/modules/item.scss";
+@import "scss/modules/nav-item.scss";
 
 //layouts
 @import "scss/layouts/l-component.scss";
@@ -23,4 +23,7 @@
 @import "scss/layouts/l-form.scss";
 @import "scss/layouts/nav.scss";
 @import "scss/layouts/header.scss";
+@import "scss/layouts/header.scss";
+@import "scss/layouts/l-bottom-menu.scss";
+@import "scss/layouts/l-full-height.scss";
 

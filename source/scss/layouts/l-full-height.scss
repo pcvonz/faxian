@@ -1,0 +1,15 @@
+.l-full-height {
+  height: 100vh;
+  width: 100vw;
+  background-color: $blue-green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    height: 70%; 
+  }
+  h1 {
+    color: white;
+    font-size: 8em;
+  }
+}
