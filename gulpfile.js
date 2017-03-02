@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var nunjucks = require('gulp-nunjucks');
 var imagemin = require('gulp-imagemin');
+var autoprefixer = require('gulp-autoprefixer');
 var svgSprite = require('gulp-svg-sprite');
 
 //TODO:
@@ -73,6 +74,10 @@ gulp.task('sass', function(){
             outputStyle: 'compressed',
             includePaths: ['node_modules/susy/sass', 'node_modules/breakpoint-sass/stylesheets', 'node_modules/normalize-scss/sass']
         }).on('error', sass.logError))
+        .pipe(autoprefixer({
+          browsers: ['last 2 versions'],
+          cascade: false
+        }))
         .pipe(gulp.dest('public/css/'))
         .pipe(browserSync.reload({
             stream: true
@@ -93,11 +98,11 @@ gulp.task('browserSync', function() {
 //We put browser sync in an array as the second argument
 //that means that we want to run the browser sync task first
 //and then watch for file changers
+
 gulp.task('watch', ['dae', 'svg', 'fonts', 'nunjucks', 'sass', 'images', 'js', 'browserSync'], function() {
     gulp.watch('source/scss/**/*.scss', ['sass']);
     gulp.watch('templates/**/*.html', ['nunjucks']);
     gulp.watch('source/js/**/*.js', ['js', browserSync.reload]);
     gulp.watch('source/images/**/*.+(png|jpg|gif|svg)', ['images', browserSync.reload]);
     gulp.watch('source/images/icons/*.svg', ['svg', 'nunjucks', browserSync.reload]);
-    gulp.watch('source/3d/**/*.dae', ['dae', browserSync.reload]);
 });

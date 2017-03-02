@@ -1,43 +1,71 @@
 .item {
-  background-color: $light-green;
   padding: 5em;
-  svg {
-    use { 
-      @include span(6 of 12);
+  height: 12em;
+}
+.item-right {
+  background-color: $light-green;
+  @include breakpoint($tablet) {
+    height: 15em;
+  }
+  .item-icon{
+      @include span(12 of 12);
+      @include breakpoint($tablet) {
+        @include push(3 of 12);
+        @include span(3 of 12);
+      }
+  }
+  .text {
+    @include span(12 of 12);
+    @include breakpoint($tablet) {
+      @include span(6 of 12 last);
+    }
+    color: white;
+  }
+}
+.item-left {
+  background-color: $blue-green;
+  .item-icon {
+      @include span(12 of 12 last);
+      @include breakpoint($tablet) {
+        @include span(6 of 12 last);
     }
   }
   .text {
-    @include span(6 of 12 last);
-    color: $cool-gray;
+    @include span(12 of 12);
+    @include breakpoint($tablet) {
+      @include push(2 of 12);
+      @include span(4 of 12);
+      text-align: right;
+    }
+    color: white;
   }
 }
+.text {
+  max-width: 20em;
+}
+
 .items-cert {
   height: 200px;
   background-color: $light-green;
   h2 {
+    margin-top: 0;
+    padding-top: 1em;
     text-align: center;
     color: white;
   }
-  svg {
-    height: 14.4vw;
-    background-color: white;
-    border-radius: 100%;
-    @include gallery(2 of 12);
-  }
-}
-
-.item-left {
-  background-color: $blue-green;
-  padding: 5em;
-  svg {
-    use { 
-      @include span(6 of 12 last);
+  .icon-gal{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    svg {
+      height: 8em;
+      width: 8em;
+      background-color: white;
+      border-radius: 100%;
+      margin-right: 2em;
     }
   }
-  .text {
-    text-align: right;
-    @include span(6 of 12);
-    color: white;
-  }
+  padding-bottom: 3em;
 }
 

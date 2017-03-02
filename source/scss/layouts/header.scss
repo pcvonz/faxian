@@ -1,19 +1,52 @@
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 500px 500px; }
+}
+
 header {
-  background-image: url("../images/house_pattern.png");
-  background-color: $blue-green;
-  height: 70vh;
+  background-image: url("../images/house_pattern_2.png");
+  background-color: #437e63;
+  height: 90vh;
   min-height: 500px;
+  max-height: 800px;
   width: 100%;
   display: flex;
+  animation: animatedBackground 25s linear infinite;
   justify-content: center;
   align-content: center;
-  svg {
-    
+  .header-logo {
+    align-self: center;
+    width: 20em;
+    ul {
+      margin: 0;
+      width: 20em;
+      li {
+        a{
+          color: white;
+        }
+      }
+    }
   }
-  h1 {
-    color: white;
+  .header-line {
     align-self: center;
     margin-left: 1em;
-    font-size: 2.5em;
+    h1 {
+      color: white;
+      font-size: 2.5em;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      color: white;
+    }
+  }
+}
+.arrow {
+  with: 100%;
+  position: relative;
+  bottom: 6em;
+  text-align: center;
+  svg {
+    height: 3em;
   }
 }

@@ -1,12 +1,15 @@
 nav {
-  margin-bottom: -4em;
   background-color: transparentize(white, .2);
   height: 4em;
-  position: relative;
+  position: fixed;
+  padding: 1em;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   .logo {
     height: 50px;
     width: 50px;
   }
+  z-index: 100;
 }

@@ -1,6 +1,31 @@
-$light-green: #D0E1AD;
-$blue-green: #93C19C;
+$light-green: #8ac37a;
+$blue-green: #66a961;
 $dark-green: #5C6B45;
 $secondary-red: #F3908A;
 $secondary-yellow: #FCE1A9;
 $cool-gray: lighten(black, 25%);
+
+$susy: (
+    columns: 12,
+    global-box-sizing: border-box,
+    use-custom: (rem: true,
+    output: isolate,
+    ),
+    debug:(
+        image: hide 
+        ),
+    );
+
+$mobile-layout: (
+    columns: 4,
+    global-box-sizing: border-box,
+    use-custom: (rem: true,
+    ),
+    debug:(
+        image: show
+        ),
+    );
+
+$mobile: max-width 619px;
+$tablet: 620px; 
+$desktop: 900px; 

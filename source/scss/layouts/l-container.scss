@@ -1,5 +1,5 @@
 .l-container {
   margin-top: 1em;
-  @include container(12 100%);
+  @include container($susy);
 }
  

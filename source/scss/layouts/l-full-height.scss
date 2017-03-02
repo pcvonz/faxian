@@ -1,15 +1,28 @@
 .l-full-height {
+  position: relative;
+  top: -1em; 
+  @include container(12);
   height: 100vh;
   width: 100vw;
   background-color: $blue-green;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
   svg {
-    height: 70%; 
+    height: 40%; 
+    position: relative;
+    top: 5em;
+    @include span( 6 of 12 );
+  }
+  .header-text {
+    @include span( 6 of 12 last);
+    p {
+      color: white;
+    }
   }
   h1 {
     color: white;
     font-size: 8em;
+    border-bottom: 16px solid white;
   }
 }
