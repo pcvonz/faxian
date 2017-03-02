@@ -5,7 +5,8 @@
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
     "nodemon": "^1.11.0",
-    "susy": "^2.2.12"
+    "susy": "^2.2.12",
+    "tween.js": "^16.6.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.6",
