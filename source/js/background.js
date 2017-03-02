@@ -1,3 +1,4 @@
+//Convert this to CSS!
 var back = document.getElementById("header");
 
 var coords = { x:0, y:0 };
