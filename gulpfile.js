@@ -59,6 +59,11 @@ gulp.task('dae', function() {
            .pipe(gulp.dest('public/3d'))
 });
 
+gulp.task('bower', function() {
+    return gulp.src('source/bower_components/**/*')
+               .pipe(gulp.dest('public/lib'))
+});
+
 gulp.task('js', function() {
     return gulp.src('source/js/**/*.js')
                .pipe(gulp.dest('public/js'))
@@ -99,10 +104,11 @@ gulp.task('browserSync', function() {
 //that means that we want to run the browser sync task first
 //and then watch for file changers
 
-gulp.task('watch', ['dae', 'svg', 'fonts', 'nunjucks', 'sass', 'images', 'js', 'browserSync'], function() {
+gulp.task('watch', ['dae', 'svg', 'bower', 'fonts', 'nunjucks', 'sass', 'images', 'js', 'browserSync'], function() {
     gulp.watch('source/scss/**/*.scss', ['sass']);
     gulp.watch('templates/**/*.html', ['nunjucks']);
     gulp.watch('source/js/**/*.js', ['js', browserSync.reload]);
     gulp.watch('source/images/**/*.+(png|jpg|gif|svg)', ['images', browserSync.reload]);
     gulp.watch('source/images/icons/*.svg', ['svg', 'nunjucks', browserSync.reload]);
+    gulp.watch('source/bower_components/*', ['bower', browserSync.reload]);
 });

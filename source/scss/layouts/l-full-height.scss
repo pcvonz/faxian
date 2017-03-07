@@ -1,9 +1,6 @@
 .l-full-height {
   position: relative;
-  top: -1em; 
   @include container(12);
-  height: 100vh;
-  width: 100vw;
   background-color: $blue-green;
   //display: flex;
   //align-items: center;
@@ -14,8 +11,12 @@
     top: 5em;
     @include span( 6 of 12 );
   }
+  display: flex;
+  align-content: center;
+  justify-content: center;
   .header-text {
-    @include span( 6 of 12 last);
+    @include span( 5 of 12 last);
+    margin-right: 10em;
     p {
       color: white;
     }
@@ -24,5 +25,12 @@
     color: white;
     font-size: 8em;
     border-bottom: 16px solid white;
+  }
+}
+
+:target {
+  a {
+    color: blue;
+    background-color: blue;
   }
 }

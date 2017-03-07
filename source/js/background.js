@@ -1,13 +1,21 @@
 //Convert this to CSS!
-var back = document.getElementById("header");
+//var back = document.getElementById("header");
+var prev_hash = window.location.hash;
+var svg = document.getElementById("svg-icon");
 
+$(window).on('hashchange', function() {
+   change_hash(window.location.hash);
+});
+
+function change_hash(hash) {
+  
+}
 var coords = { x:0, y:0 };
 
 var tween = new TWEEN.Tween(coords)
   .to({x:254, y:196}, 10000)
   .repeat(Infinity)
   .onUpdate(function() {
-    console.log(this.x, this.y);
   })
   .start();
 
@@ -16,7 +24,7 @@ var tween = new TWEEN.Tween(coords)
 
 function animate_background(time) {
   var new_pos =  coords.x + "px " + coords.y + "px";
-  back.style.backgroundPosition = new_pos;
+  svg.style.right = new_pos;
   requestAnimationFrame(animate_background);
   TWEEN.update(time);
 }

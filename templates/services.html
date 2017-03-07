@@ -1,62 +1,105 @@
 
 {% extends "layout.html" %}
 
+{% block header %}
+<link rel="stylesheet" type="text/css" href="lib/fullpage.js/dist/jquery.fullPage.css" />
+{% endblock %}
+
 {% block content %}
 
-<div class="l-full-height">
-    <div class="header-text">
-      <h1> Paint </h1>
-      <p> 
-        Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
-        Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
-        Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
-        doloremque laudantium fugit cum fugiat culpa.
-      </p>
-      <p>
-        Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
-        sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
-        similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
-        nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
-      </p>
+<div id="fullpage">
+  <div data-anchor="paint" class="section l-full-height">
+      <div class="header-text">
+        <h1> Paint </h1>
+        <p> 
+          Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
+          Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
+          Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
+          doloremque laudantium fugit cum fugiat culpa.
+        </p>
+        <p>
+          Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
+          sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
+          similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
+          nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
+        </p>
+  </div>
+
+  <div data-anchor="roofing" class="section l-full-height">
+      <div class="header-text">
+        <h1> Roofing </h1>
+        <p> 
+          Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
+          Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
+          Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
+          doloremque laudantium fugit cum fugiat culpa.
+        </p>
+        <p>
+          Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
+          sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
+          similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
+          nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
+        </p>
+  </div>
+  <div data-anchor="wall" class="section l-full-height">
+      <div class="header-text">
+        <h1> Wall </h1>
+        <p> 
+          Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
+          Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
+          Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
+          doloremque laudantium fugit cum fugiat culpa.
+        </p>
+        <p>
+          Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
+          sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
+          similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
+          nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
+        </p>
+  </div>
+  <div data-anchor="flooring" class="section l-full-height">
+      <div class="header-text">
+        <h1> Roofing </h1>
+        <p> 
+          Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
+          Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
+          Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
+          doloremque laudantium fugit cum fugiat culpa.
+        </p>
+        <p>
+          Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
+          sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
+          similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
+          nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
+        </p>
+  </div>
 </div>
 
-<div class="l-full-height">
-    <div class="header-text">
-      <h1> Roofing </h1>
-      <p> 
-        Neque molestiae repellat iusto aspernatur recusandae quisquam sit non.
-        Aut sequi voluptatum ex. Quod omnis officiis dolor aut consequatur enim et.
-        Asperiores aut ipsum ut est voluptatem aut repellendus. Cumque accusamus
-        doloremque laudantium fugit cum fugiat culpa.
-      </p>
-      <p>
-        Officia laboriosam placeat cumque ad qui omnis earum aut. Omnis ab iste id
-        sapiente in consequatur dolore enim. Dolor voluptatibus doloremque est
-        similique et. Est distinctio similique porro saepe vel quibusdam. Vel vero
-        nostrum ad pariatur consectetur architecto tempore consequatur.  </div>
-      </p>
-</div>
+  <div class="l-side-nav">
+    <svg class="service-icon"> 
+       <use id="svg-icon" xlink:href="#paint"></use>
+    </svg>
+    <ul>
+      <li class=""><a id="paint_nav" href="#paint_nav">Paint</a></li>
+      <li class=""><a id="roof_nav" href="#roof_nav">Roofing</a></li>
+      <li class=""><a id="wall_nav" href="#wall_nav">Wall</a></li>
+      <li class=""><a id="floor_nav" href="#floor_nav">Flooring</li></a>
+    </ul>
+  </div>
+  <!--div class="l-bottom-menu"> 
+    <ul>
+      <a href="#"><li class="nav-item">Paint</li></a>
+      <a href="#"><li class="nav-item">Roofing</li></a>
+      <a href="#"><li class="nav-item">Wall</li></a>
+      <a href="#"><li class="nav-item">Flooring</li></a>
+    </ul>
 
-<div class="l-side-nav">
-  <svg class="service-icon"> 
-     <use xlink:href="#paint"></use>
-  </svg>
-  <ul>
-    <a href="#"><li class="">Paint</li></a>
-    <a href="#"><li class="">Roofing</li></a>
-    <a href="#"><li class="">Wall</li></a>
-    <a href="#"><li class="">Flooring</li></a>
-  </ul>
-</div>
-<!--div class="l-bottom-menu"> 
-  <ul>
-    <a href="#"><li class="nav-item">Paint</li></a>
-    <a href="#"><li class="nav-item">Roofing</li></a>
-    <a href="#"><li class="nav-item">Wall</li></a>
-    <a href="#"><li class="nav-item">Flooring</li></a>
-  </ul>
-
-</div-->
+  </div-->
 
 
+{% endblock %}
+
+{% block scripts %}
+  <script src="js/TWEEN.js"></script>
+  <script src="js/background.js"></script>
 {% endblock %}

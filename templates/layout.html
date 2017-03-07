@@ -4,6 +4,8 @@
     <title>Sweet New Website</title>
     <link rel=StyleSheet href="css/style.css" TYPE="text/css" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block header %}
+    {% endblock %}
 </head>
 
 <body>
@@ -15,7 +17,7 @@
     <a href="index.html">Home</a>
   </li>
   <li class="nav-item">
-    <a href="services.html">Services</a>
+    <a href="services.html#paint_nav">Services</a>
   </li>
   <li class="nav-item">
     <a href="#">About</a>
@@ -27,7 +29,6 @@
     {% block content %}{% endblock %}
     <footer>
       <ul>
-          <li class="nav-item"><a href="#"><img height="32" src="images/twitter.png"></a></li>
           <li class="nav-item"><a href="mailto:pcvonz@gmail.com"><p> faxian@faxian.com</p></a></li>
           <li class="nav-item">Sustainability Matters</li>
       </ul>
@@ -40,7 +41,11 @@
     <!-- <script src="js/three.js"></script>
     <script src="js/collada.js"></script>
     <script src="js/script.js"></script> -->
-    <script src="js/Tween.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/fullpage.js/dist/jquery.fullpage.js"></script>
+    <script src="js/init_fullpage.js"></script>
+    {% block scripts %}
+    {% endblock %}
     <!--script src="js/background.js"></script-->
 </body>
 </html>

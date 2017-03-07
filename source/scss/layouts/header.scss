@@ -1,6 +1,10 @@
 @keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 500px 500px; }
+  from { 
+    background-position: 0 0; 
+  }
+  to { 
+    background-position: 500px 500px; 
+  }
 }
 
 header {
@@ -41,12 +45,29 @@ header {
     }
   }
 }
+
 .arrow {
   with: 100%;
   position: relative;
   bottom: 6em;
   text-align: center;
+  animation: fadein .5s ease;
   svg {
     height: 3em;
   }
+}
+
+@mixin fade($start_bottom, $end_bottom) {
+    from { 
+      bottom: $start_bottom;
+      opacity: 0; 
+    }
+    to { 
+      opacity: 1; 
+      bottom: $end_bottom;
+    }
+}
+
+@keyframes fadein {
+  @include fade(3em, 6em);
 }
