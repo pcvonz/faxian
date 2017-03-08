@@ -1,6 +1,9 @@
 .l-side-nav {
   width: 20%;
   background-color: $blue-green;
+  svg {
+    height: 180px;
+  }
   li {
     list-style: none;
     a {
@@ -10,7 +13,7 @@
       }
   }
   position: fixed;
-  top: -37em;
+  top: -40em;
   padding-top: 57em;
   padding-left: 14%;
   padding-bottom: 100vh;
