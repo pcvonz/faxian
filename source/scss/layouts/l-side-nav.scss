@@ -1,4 +1,5 @@
 .l-side-nav {
+  display: none;
   width: 20%;
   background-color: $blue-green;
   svg {
@@ -12,11 +13,13 @@
       font-size: 1.2em;
       }
   }
-  position: fixed;
-  top: -40em;
-  padding-top: 57em;
-  padding-left: 14%;
-  padding-bottom: 100vh;
+  @include breakpoint($tablet) {
+    position: fixed;
+    top: -40em;
+    padding-top: 57em;
+    padding-left: 14%;
+    padding-bottom: 100vh;
+  }
 }
 
 :target {

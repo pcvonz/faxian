@@ -1,5 +1,5 @@
 .l-full-height {
-  overflow: scroll;
+  overflow-y: scroll;
   position: relative;
   padding: .4em;
   @include container(12);
