@@ -1,0 +1,22 @@
+.staff {
+  height: 12em;
+  width: 12em;
+  margin: 0 auto;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.staff-1 {
+  background-image: url("../images/staff/staff-1.jpg");
+}
+.staff-2 {
+  background-image: url("../images/staff/staff-2.jpg");
+  background-position-y: -2em;
+}
+.staff-3 {
+  background-image: url("../images/staff/staff-3.jpg");
+  background-position-y: -2em;
+}
+.staff-4 {
+  background-image: url("../images/staff/staff-4.jpg");
+}

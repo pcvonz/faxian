@@ -1,5 +1,8 @@
 .l-side-nav {
   display: none;
+  @include breakpoint($tablet) {
+    display: block;
+  }
   width: 20%;
   background-color: $blue-green;
   svg {
