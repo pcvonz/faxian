@@ -44,3 +44,5 @@ function change_hash(hash) {
 
 };
 change_hash(window.location.hash);
+
+

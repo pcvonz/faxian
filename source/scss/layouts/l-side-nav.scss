@@ -1,8 +1,5 @@
 .l-side-nav {
   display: none;
-  @include breakpoint($tablet) {
-    display: block;
-  }
   width: 20%;
   background-color: $blue-green;
   svg {
@@ -17,11 +14,17 @@
       }
   }
   @include breakpoint($tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
     position: fixed;
-    top: -40em;
-    padding-top: 57em;
-    padding-left: 14%;
-    padding-bottom: 100vh;
+    top: 0;
+    width: 35%;
+    height: 100vh;
+    text-align: right;
+    padding: 0;
   }
 }
 

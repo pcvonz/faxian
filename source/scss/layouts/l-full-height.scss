@@ -1,35 +1,35 @@
 .l-full-height {
   overflow-y: scroll;
   position: relative;
-  padding: .4em;
   @include container(12);
   background-color: $blue-green;
   //display: flex;
   //align-items: center;
   //justify-content: center;
+  .fp-tableCell {
+    display: inline-block;
+  }
   svg {
     height: 40%; 
     position: relative;
     top: 5em;
     @include span( 6 of 12 );
   }
-  display: flex;
-  align-content: center;
-  justify-content: center;
   .header-text {
     p {
       color: white;
     }
     @include breakpoint($tablet) {
-      @include span( 6 of 12 last);
-      margin-right: 10em;
+      width: 40%;
+      min-width: 30em;
+      margin-left: 40%;
     }
   }
   h1 {
     color: white;
     font-size: 3em;
     @include breakpoint($tablet) {
-      font-size: 8em;
+      font-size: 5em;
     }
     border-bottom: 16px solid white;
   }
@@ -39,5 +39,14 @@
   a {
     color: blue;
     background-color: blue;
+  }
+}
+
+.fp-responsive {
+  .section {
+    height: unset !important;
+  }
+  .fp-tableCell {
+    height: unset !important;
   }
 }
