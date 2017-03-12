@@ -5,6 +5,10 @@ $secondary-red: #F3908A;
 $secondary-yellow: #FCE1A9;
 $cool-gray: lighten(black, 25%);
 
+* {
+  box-sizing: border-box;
+}
+
 $susy: (
     columns: 12,
     global-box-sizing: border-box,

@@ -8,6 +8,7 @@
 }
 
 header {
+  margin-top: -4em;
   background-image: url("../images/house_pattern_2.png");
   background-color: #437e63;
   @include breakpoint($desktop) {
