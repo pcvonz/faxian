@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="135.9281mm"
+   width="122.74014mm"
    height="54.671036mm"
-   viewBox="0 0 481.635 193.71627"
+   viewBox="0 0 434.90602 193.71627"
    id="svg4989"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="332.96035"
-     inkscape:cy="-631.71332"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="253.40453"
+     inkscape:cy="-53.263273"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,14 +57,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(649.38892,293.06738)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:10.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -172.85391,-291.04159 0,183.99999"
-       id="path104128"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/media/paul/VONZIMMERMA/design/School/360/faxian/mockups/two.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
     <g
        id="g17282"
        transform="matrix(3.6694891,0,0,3.6694891,-2523.397,-2936.8359)"
@@ -75,7 +67,7 @@
       <polygon
          id="polygon17284"
          class="st12"
-         points="536.9,729.9 536.9,724 521.4,721 511.2,727 511.2,733 521.4,727 "
+         points="511.2,727 511.2,733 521.4,727 536.9,729.9 536.9,724 521.4,721 "
          style="fill:none;stroke:#ffffff" />
       <path
          id="path17286"
@@ -97,7 +89,7 @@
         <polygon
            id="polygon17292"
            class="st12"
-           points="536.9,735.9 526.6,741.9 531.8,744.9 536.9,741.9 "
+           points="536.9,741.9 536.9,735.9 526.6,741.9 531.8,744.9 "
            style="fill:none;stroke:#ffffff" />
         <path
            inkscape:connector-curvature="0"

@@ -111,4 +111,5 @@ gulp.task('watch', ['dae', 'svg', 'bower', 'fonts', 'nunjucks', 'sass', 'images'
     gulp.watch('source/images/**/*.+(png|jpg|gif|svg)', ['images', browserSync.reload]);
     gulp.watch('source/images/icons/*.svg', ['svg', 'nunjucks', browserSync.reload]);
     gulp.watch('source/bower_components/*', ['bower', browserSync.reload]);
+    gulp.watch('source/images/*', ['images', browserSync.reload]);
 });
