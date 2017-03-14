@@ -62,6 +62,9 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    a {
+      text-decoration: none;
+    }
     @include breakpoint($tablet) {
       flex-direction: row;
     }
@@ -79,6 +82,9 @@
       background-color: white;
       border-radius: 100%;
     }
+    svg:hover {
+      filter: brightness(110%);
+      }
     }
   }
   padding-bottom: 3em;
