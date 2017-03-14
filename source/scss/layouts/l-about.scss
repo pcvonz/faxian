@@ -1,18 +1,29 @@
 .l-about {
+  .full-width {
+    background-color: $blue-green;
+    @include span(12);
+  }
   @include container(12 100%);
-  padding: 5em .5em;
   background-color: $light-green;
   width: 100vw;
   display: block;
-  .content {
+  .story {
+    color: white;
+    @include push(2);
+    @include span(8);
+  }
+  .meet-the-staff, .question, .story {
+    padding: 4em .5em 4em .5em;
+    @include span(12);
+    text-align: center;
     @include breakpoint($tablet) {
-      @include push(3)
-      @include span(6);
+      @include push(2)
+      @include span(8);
       .question {
        clear: both; 
        form {
           .form-box {
-            @include gallery(6 of 12);
+            @include gallery(8 of 12);
           }
           .form-button {
             clear: both;
@@ -22,25 +33,44 @@
     }
     p {
       color: white;
+      text-align: left;
     }
     h1 {
       color: white;
       border-bottom: .3em solid white;
-      width: 50%;
     }
     h2 {
       color: white;
     }
     h3 {
       color: white;
+      font-family: "Suez One", serif;
+    }
+    form {
+      text-align: left;
+      margin-left: .5em;
     }
   }
-  .staff-images{
+  .staff-images {
     text-align: center;
+    p {
+      text-align: center;
+    }
     .image-card {
       @include breakpoint($tablet) {
         @include gallery(6);
       }
     }
+    .image-card:hover {
+      filter: brightness(110%);
+    }
   }
+}
+
+#msg {
+  width: 90%;
+  height: 10em;
+}
+.meet-the-staff {
+  padding: 4em 0 4em 0;
 }

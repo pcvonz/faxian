@@ -1,0 +1,45 @@
+Personas
+Name: Bill
+
+    Job title
+        Lead Architect at Architectural Adventures 
+    Traits
+        An old hand at Architecture, worked his way up.
+        Used to hand draft plans, did manage to learn all the new software, considers himself technically savvy for his generation
+    Motivations:
+        Wants to know what services we provide
+        Wants an easily accessible form to email
+    Job title
+    Frustrations
+        Wants to get down to the content as quickly as possible. 
+
+Name: James
+
+## Job title: Intern
+
+## Traits:
+
+- Computer geek
+- Loves working with modern architecture software
+- Doesn't now much about sustainable design
+
+## Motivations
+
+- Wants to skim web pages, doesn't really read them.
+- Just wants to learn about what cool materials they're are on the market
+- Has to summarize info for full time employees
+
+## Frustrations
+
+- Really distrusts websites that don't look like facebook or google 
+- Doesn't want auto played content, just the nitty gritty
+
+# Name: Jill
+
+## Job title: Architect
+
+## Motivations
+
+- Jill wants to make sure her designs are energy effecient
+- She is also interested in learning about cutting edge materials :wq
+

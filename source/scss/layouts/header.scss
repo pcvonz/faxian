@@ -46,7 +46,9 @@ header {
   }
   .header-line {
     align-self: center;
-    margin-left: 3em;
+    @include breakpoint($tablet) {
+      margin-left: 3em;
+    }
     h1 {
       color: white;
       font-size: 2.5em;
