@@ -34,7 +34,7 @@ function change_hash(hash) {
     var g = s.g();
     g.append(text); 
     g.attr({
-      transform: "s" + 5 + " t20, 13" 
+      transform: "s" + 5 + " t30, 13" 
       });
     Snap.animate(0, 1, function(val) {
         g.attr({opacity: val}); 
@@ -44,3 +44,5 @@ function change_hash(hash) {
 
 };
 change_hash(window.location.hash);
+
+
